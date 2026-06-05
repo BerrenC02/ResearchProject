@@ -1877,7 +1877,7 @@ GameObject:
   - component: {fileID: 773313582}
   - component: {fileID: 773313581}
   - component: {fileID: 773313580}
-  - component: {fileID: 773313579}
+  - component: {fileID: 773313585}
   - component: {fileID: 773313578}
   - component: {fileID: 773313584}
   m_Layer: 5
@@ -1901,19 +1901,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 1
   prefname: IntroductionComplete
---- !u!114 &773313579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773313577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0470571c97504741b2f87fb15afa50a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: ChapterSelector
 --- !u!114 &773313580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,6 +2015,19 @@ MonoBehaviour:
   - {fileID: 992589107}
   CurrentDialouge: 0
   MaxDialouge: 0
+--- !u!114 &773313585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773313577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f0c1b851e53e46bd8c3391559ae49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: 
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,9 +3001,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 773313579}
-        m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
-        m_MethodName: SceneMove
+      - m_Target: {fileID: 773313585}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: ChapterSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

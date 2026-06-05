@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 271919053}
   - component: {fileID: 271919052}
   - component: {fileID: 271919051}
-  - component: {fileID: 271919056}
   - component: {fileID: 271919055}
+  - component: {fileID: 271919056}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -250,10 +250,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 271919049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0470571c97504741b2f87fb15afa50a, type: 3}
+  m_Script: {fileID: 11500000, guid: b23f0c1b851e53e46bd8c3391559ae49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: ChapterSelector
+  SceneName: 
 --- !u!1 &327386092
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,8 +432,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 271919056}
-        m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
-        m_MethodName: SceneMove
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: ChapterSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
