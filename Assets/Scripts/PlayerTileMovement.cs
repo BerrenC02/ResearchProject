@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerTileMovement : MonoBehaviour
 {
-    public float speed; //How fast the player moves, public allows it to be edited directly in unity
+    public float speed;
     public float distance;
+    public float checkdistance = 0.4f;
     public LayerMask wallLayer;
     public AudioSource Crash;
 
@@ -30,11 +31,12 @@ public class PlayerTileMovement : MonoBehaviour
             dir = Vector3.right;
         }
 
+        //Allows movement as long as no objects on the wallLayer exist are in the way
         if (dir != Vector3.zero)
         {
             Vector3 target = transform.position + dir * distance;
 
-            if (!Physics.CheckSphere(target, 0.4f, wallLayer))
+            if (!Physics.CheckSphere(target, checkdistance, wallLayer))
             {
                 transform.position = target;
             }

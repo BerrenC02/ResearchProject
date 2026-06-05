@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class TemporaryPlayerPref : MonoBehaviour
 {
+    //Most likely a temporary script, planning on adding this functionality to the NextTextButton script or Menu Script to reduce number of scripts
     public int number;
     public string prefname;
-    // Start is called before the first frame update
     public void Press()
     {
         PlayerPrefs.SetInt((prefname), (number));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

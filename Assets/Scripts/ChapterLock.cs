@@ -14,7 +14,7 @@ public class ChapterLock : MonoBehaviour
 
         foreach (UnityEngine.UI.Button obj in Buttons)
         {
-
+            //Only doing this in script instead of in engine to avoid me forgetting to do one of the buttons and having to rebuild
             ColorBlock cb = obj.colors;
             cb.normalColor = Color.white;
             cb.highlightedColor = Color.gray;

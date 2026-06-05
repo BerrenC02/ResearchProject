@@ -12,7 +12,7 @@ public class MenuScript : MonoBehaviour
     {
         if (SceneName == null)
         {
-            SceneName = null;
+            SceneName = null; //Avoids having to enter a string in each scene
         }
     }
     public void IntroductionSwitch()

@@ -9,7 +9,7 @@ public class NextTextButton : MonoBehaviour
     public GameObject[] Text;
     public int CurrentDialouge;
     public int MaxDialouge;
-    // Start is called before the first frame update
+
     void Start()
     {
         foreach (GameObject obj in Text)
@@ -20,7 +20,7 @@ public class NextTextButton : MonoBehaviour
         Text[0].SetActive(true);
     }
 
-    // Update is called once per frame
+
     public void ButtonPressed()
     {
         Text[CurrentDialouge].SetActive(false);
