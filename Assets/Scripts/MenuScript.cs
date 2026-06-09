@@ -47,4 +47,10 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
     }
+
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+    }
 }

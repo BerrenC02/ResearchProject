@@ -336,6 +336,8 @@
 "Assets/Scripts/Chapter 1 Scripts/OneStepTiles.cs"
 "Assets/Scripts/Chapter 1 Scripts/TileDestroySelf.cs"
 "Assets/Scripts/Chapter 1 Scripts/TileFailCondition.cs"
+"Assets/Scripts/Chapter 2 Scripts/PlayerMovementC2.cs"
+"Assets/Scripts/Chapter 2 Scripts/PlayerWin.cs"
 "Assets/Scripts/ChapterLock.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/NextTextButton.cs"
