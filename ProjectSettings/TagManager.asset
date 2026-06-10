@@ -7,6 +7,7 @@ TagManager:
   - PuzzleTile
   - Text
   - Pushable
+  - Hole
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Push
-  - 
+  - Hole
   - 
   - 
   - 

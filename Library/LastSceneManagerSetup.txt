@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity
+- path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestHole.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

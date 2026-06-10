@@ -8,6 +8,7 @@ public class PlayerMovementC2 : MonoBehaviour
     public float distance;
     public float checkdistance = 0.4f;
     public LayerMask wallLayer;
+    public LayerMask holeLayer;
     public AudioSource Crash;
     public bool Push = false;
     public Color[] colours;
@@ -53,28 +54,34 @@ public class PlayerMovementC2 : MonoBehaviour
             }
         }
 
-            //Allows movement as long as no objects on the wallLayer exist are in the way
-            if (dir != Vector3.zero)
+        //Allows movement as long as no objects on the wallLayer exist are in the way
+        if (dir != Vector3.zero)
+        {
+            Vector3 target = transform.position + dir * distance;
+
+            Collider[] hits = Physics.OverlapSphere(target, checkdistance, wallLayer);
+            Collider[] hits2 = Physics.OverlapSphere(target, checkdistance, holeLayer);
+
+            if (hits.Length == 0 && hits2.Length == 0)
             {
-                Vector3 target = transform.position + dir * distance;
-
-                Collider[] hits = Physics.OverlapSphere(target, checkdistance, wallLayer);
-
-                if (hits.Length == 0)
+                transform.position = target;
+                return;
+            }
+            else if (hits.Length > 0 && hits[0].CompareTag("Pushable") && Push == true)
+            {
+                Vector3 PushObjectNewPos = hits[0].transform.position + dir * distance;
+                if (!Physics.CheckSphere(PushObjectNewPos, checkdistance, wallLayer))
                 {
-                    transform.position = target;
-                }
-                else if (hits[0].CompareTag("Pushable") && Push == true)
-                {
-                    Debug.Log("Push");
-                    Vector3 PushObjectNewPos = hits[0].transform.position + dir * distance;
-                    if (!Physics.CheckSphere(PushObjectNewPos, checkdistance, wallLayer))
+                    Collider[] holecheck = Physics.OverlapSphere(PushObjectNewPos, checkdistance);
+                    if (holecheck.Length == 0)
                     {
                         hits[0].transform.position = PushObjectNewPos;
+                        transform.position = target;
                     }
-                    else
+                    else if (holecheck[0].CompareTag("Hole"))
                     {
-                        Crash.Play();
+                        hits[0].transform.position = PushObjectNewPos;
+                        transform.position = target;
                     }
                 }
                 else
@@ -82,6 +89,13 @@ public class PlayerMovementC2 : MonoBehaviour
                     Crash.Play();
                 }
             }
+            else
+            {
+                Crash.Play();
+            }
+            
         }
     }
+}
+
 
