@@ -3,7 +3,30 @@
   "WorkspaceRootPath": "D:\\ResearchProject\\ResearchProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\showsafepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\showsafepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\chapterlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapterlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 1 scripts\\onesteptiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 1 scripts\\onesteptiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berren\\Downloads\\Scripts\\Respawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\temporaryplayerpref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\temporaryplayerpref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +34,8 @@
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\fillhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 2 scripts\\playerwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\playerwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerWin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Chapter 2 Scripts\\PlayerWin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +45,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ChapterLock.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ChapterLock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChapterLock.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ChapterLock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChapterLock.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T14:43:04.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Respawner.cs",
+              "DocumentMoniker": "C:\\Users\\Berren\\Downloads\\Scripts\\Respawner.cs",
+              "ToolTip": "C:\\Users\\Berren\\Downloads\\Scripts\\Respawner.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:45:25.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowSafePath.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ShowSafePath.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShowSafePath.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ShowSafePath.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShowSafePath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:43:30.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OneStepTiles.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:43:23.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TemporaryPlayerPref.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\TemporaryPlayerPref.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TemporaryPlayerPref.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\TemporaryPlayerPref.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TemporaryPlayerPref.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T11:42:25.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FillHole.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
@@ -42,19 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScript.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuScript.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwDQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T16:44:27.71Z"
+              "WhenOpened": "2026-06-09T16:44:27.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "PlayerWin.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerWin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerWin.cs",
@@ -66,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "PlayerMovementC2.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
@@ -74,8 +154,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowFEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T14:36:14.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T14:36:14.143Z"
             }
           ]
         }

@@ -8,15 +8,16 @@ using Button = UnityEngine.UI.Button;
 public class ChapterLock : MonoBehaviour
 {
     public Button[] Buttons;
+    public Color col;
 
     void Start()
     {
-
+        col.a = 0;
         foreach (UnityEngine.UI.Button obj in Buttons)
         {
             //Only doing this in script instead of in engine to avoid me forgetting to do one of the buttons and having to rebuild
             ColorBlock cb = obj.colors;
-            cb.normalColor = Color.white;
+            cb.normalColor = col;
             cb.highlightedColor = Color.gray;
             cb.pressedColor = Color.green;
             cb.disabledColor = Color.red;
@@ -35,6 +36,11 @@ public class ChapterLock : MonoBehaviour
         if (PlayerPrefs.HasKey("Chapter1Complete"))
         {
             Buttons[2].interactable = true;
+        }
+
+        if (PlayerPrefs.HasKey("Chapter2Complete"))
+        {
+            Buttons[3].interactable = true;
         }
     }
 }

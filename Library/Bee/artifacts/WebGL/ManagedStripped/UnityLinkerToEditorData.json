@@ -36,14 +36,23 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -51,10 +60,18 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -62,14 +79,23 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -83,10 +109,18 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -94,10 +128,18 @@
           {
             "name": "SampleClip",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -122,14 +164,23 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -149,14 +200,23 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -176,14 +236,23 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -197,14 +266,23 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -230,14 +308,23 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -245,13 +332,22 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -271,14 +367,23 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -292,14 +397,23 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -307,10 +421,18 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -318,10 +440,18 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -329,10 +459,18 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -340,14 +478,23 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -361,14 +508,23 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -376,14 +532,23 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -415,10 +580,15 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -432,14 +602,23 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -471,14 +650,23 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -498,10 +686,15 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -595,6 +788,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -692,15 +891,50 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -714,10 +948,18 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -731,10 +973,18 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/TilePuzzleLayout1.unity",
-              "Assets/Scenes/TilePuzzleLayout2.unity",
-              "Assets/Scenes/TilePuzzleLayout3.unity",
-              "Assets/Scenes/TilePuzzleTest.unity"
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -790,6 +1040,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -881,10 +1137,15 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -933,10 +1194,15 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -950,10 +1216,15 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Chapter2.unity",
+              "Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity",
+              "Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity",
+              "Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity",
               "Assets/Scenes/ChapterSelector.unity",
-              "Assets/Scenes/Introduction.unity",
-              "Assets/Scenes/TilePuzzleTestEnd.unity"
+              "Assets/Scenes/Introduction.unity"
             ],
             "dependencyType": 0,
             "icon": null

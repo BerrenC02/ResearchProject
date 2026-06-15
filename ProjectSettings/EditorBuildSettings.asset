@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Introduction.unity
     guid: 54c6df8856b381a46a4d4665a27121fa
-  - enabled: 0
-    path: Assets/Scenes/Chapter1.unity
-    guid: e8fdc305f9a0bbd4e88f44d6d71e4655
   - enabled: 1
     path: Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity
     guid: 0601eea7b61382b4497e12014f3b3abc
@@ -30,6 +27,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity
     guid: e42c8827b83ba0144a7ba65aee0cf563
   - enabled: 1
-    path: Assets/Scenes/Chapter2.unity
-    guid: 086976fe5125e2946a811fa5bcd48b9e
+    path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity
+    guid: e32c795e5fedb8745af803142acafb98
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity
+    guid: 20ee2b65663454445a21bc94cb2103cb
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity
+    guid: 101ff39eb11b687478d863216fd0429b
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity
+    guid: 808fe2626c27cbc499a187734c02b02f
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity
+    guid: 29759d51b1a2cfc448b9fa22da169acd
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity
+    guid: 702c69c2a51b12d4c94ce90144ad63f8
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity
+    guid: 03c5a0413a3c23b41aa1e3a933497284
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity
+    guid: 7f58e8d85a44ae14ab34c72afd6dd675
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity
+    guid: 28bc61c71c6fcc4449f0d52539cfec4e
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity
+    guid: 6919cc3cd55e9774889955352f236c3a
   m_configObjects: {}

@@ -419,6 +419,10 @@ UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.ParticleSystem::EmitOld_Internal
+UnityEngine.ParticleSystem::Emit_Injected
+UnityEngine.ParticleSystem::Emit_Internal
+UnityEngine.ParticleSystemRenderer::GetMeshes
 UnityEngine.Physics::CheckSphere_Internal_Injected
 UnityEngine.Physics::get_invokeCollisionCallbacks
 UnityEngine.Physics::get_reuseCollisionCallbacks
@@ -427,6 +431,7 @@ UnityEngine.Physics::SendOnCollisionExit
 UnityEngine.Physics::SendOnCollisionStay
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
 UnityEngine.Physics::GetColliderByInstanceID
+UnityEngine.Physics::OverlapSphere_Internal_Injected
 UnityEngine.Physics::GetBodyByInstanceID
 UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
