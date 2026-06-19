@@ -9,10 +9,11 @@ public class PlayerTileMovement : MonoBehaviour
     public float checkdistance = 0.4f;
     public LayerMask wallLayer;
     public AudioSource Crash;
+    private Vector3 dir;
 
     void Update()
     {
-        Vector3 dir = Vector3.zero;
+        dir = Vector3.zero;
 
         if (Input.GetKeyDown(KeyCode.W))
         {

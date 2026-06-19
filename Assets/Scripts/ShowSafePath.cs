@@ -8,19 +8,15 @@ public class ShowSafePath : MonoBehaviour
 {
     public List<GameObject> SafePath;
     public GameObject Player;
+    public GameObject UI;
 
     private void Start()
     {
         Player.SetActive(false);
+        UI.SetActive(false);
         //Saves having to manually add each tile to a list in engine
         SafePath = UnityEngine.Object.FindObjectsOfType<GameObject>().Where(obj => obj.CompareTag("SafePath")).ToList();
         StartCoroutine(HoleDealy());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator HoleDealy()
@@ -31,5 +27,6 @@ public class ShowSafePath : MonoBehaviour
             obj.SetActive(false);
         }
         Player.SetActive(true);
+        UI.SetActive(true);
     }
 }

@@ -6,13 +6,13 @@ ScriptsOnlyBuild:
     - MenuScript
     - NextTextButton
     - OneStepTiles
-    - PlayerMovementC2
-    - PlayerTileMovement
     - PlayerWin
     - ShowSafePath
     - TemporaryPlayerPref
     - TileDestroySelf
     - TileFailCondition
+    - UIBasedMovementC2
+    - UIPlayerMovement
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -72,6 +72,30 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: TemporaryPlayerPref
+    methodName: Press
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
+  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterTestCheat
   - assembly: Assembly-CSharp
@@ -93,265 +117,262 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: Chapter2Switch
   - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    fullTypeName: MenuScript
+    methodName: SceneMove
   - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
-    methodName: ChapterSelect
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: TemporaryPlayerPref
     methodName: Press
   - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
     methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
     methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterFinishPref
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterFinishPref
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
   sceneClasses:
-    Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 2182}
-    - Class: 114
-      Script: {instanceID: 4248}
-    - Class: 114
-      Script: {instanceID: 5926}
-    - Class: 114
-      Script: {instanceID: 8224}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 2182}
-    - Class: 114
-      Script: {instanceID: 4248}
-    - Class: 114
-      Script: {instanceID: 5926}
-    - Class: 114
-      Script: {instanceID: 8224}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 2182}
-    - Class: 114
-      Script: {instanceID: 4248}
-    - Class: 114
-      Script: {instanceID: 5926}
-    - Class: 114
-      Script: {instanceID: 8224}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 2182}
-    - Class: 114
-      Script: {instanceID: 4248}
-    - Class: 114
-      Script: {instanceID: 5926}
-    - Class: 114
-      Script: {instanceID: 8224}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity:
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -373,25 +394,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 114
-      Script: {instanceID: 6760}
+      Script: {instanceID: 22544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -408,7 +429,64 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity:
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Easy.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -446,27 +524,642 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17302}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 19366}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21038}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23346}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1End.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 21882}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17302}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23346}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17302}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23346}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17302}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23346}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17302}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23346}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 1 Scenes/In Use/Chapter1Intro.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Dia1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Dia2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Easy.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19652}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -487,7 +1180,64 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity:
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2End.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -525,29 +1275,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 18894}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 19652}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -568,7 +1318,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity:
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -606,29 +1356,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 18894}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 19652}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -649,7 +1399,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity:
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -687,27 +1437,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 19652}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -728,7 +1478,88 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity:
+    Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 18894}
+    - Class: 114
+      Script: {instanceID: 19652}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 2 Scenes/In Use/Chapter2Intro.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -750,25 +1581,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 114
-      Script: {instanceID: 6760}
+      Script: {instanceID: 22544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -785,7 +1616,121 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity:
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Dia1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Dia2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Easy.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -823,20 +1768,103 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 4248}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 42040}
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23652}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity:
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3End.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 22544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -874,20 +1902,46 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 4248}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 42040}
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23652}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity:
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -925,20 +1979,46 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 4248}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 42040}
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23652}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity:
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -976,20 +2056,123 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3632}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 4248}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 42040}
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23652}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity:
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 19366}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21038}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 23652}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter 3 Scenes/In Use/Chapter3Intro.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1011,25 +2194,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 114
-      Script: {instanceID: 6760}
+      Script: {instanceID: 21882}
+    - Class: 114
+      Script: {instanceID: 22544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1059,8 +2244,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -1068,33 +2251,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2036}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2272}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 17156}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 4314}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 4428}
+      Script: {instanceID: 21256}
     - Class: 114
-      Script: {instanceID: 4706}
+      Script: {instanceID: 21420}
     - Class: 114
-      Script: {instanceID: 5508}
-    - Class: 114
-      Script: {instanceID: 6120}
-    - Class: 114
-      Script: {instanceID: 6136}
-    - Class: 114
-      Script: {instanceID: 6300}
-    - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 21796}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1124,6 +2299,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -1133,27 +2310,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 16684}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 17392}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 17878}
     - Class: 114
-      Script: {instanceID: 6120}
+      Script: {instanceID: 18102}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 19432}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 19546}
     - Class: 114
-      Script: {instanceID: 6674}
+      Script: {instanceID: 19826}
     - Class: 114
-      Script: {instanceID: 6760}
+      Script: {instanceID: 20628}
     - Class: 114
-      Script: {instanceID: 7422}
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 21882}
+    - Class: 114
+      Script: {instanceID: 22544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1179,16 +2364,28 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 55060a7bf226ac385ce19ebd450f199f
+      Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UIElements
-    className: PanelRaycaster
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -1425,12 +2622,6 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 915204dac8acad99f076d6e72ada0a0f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: 593a641cd7822a10b9a54aa9eb5c3d5e
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1665,6 +2856,12 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 2635c62563ffe955003562682cf7fed4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIBasedMovementC2
+  - hash:
+      serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1875,6 +3072,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 4691095f78ea54c9944f6e3756adf0e2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: 90e5a6819cf40b697780435f2025c81d
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1893,13 +3096,7 @@ ScriptsOnlyBuild:
     className: Benchmark02
   - hash:
       serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: 75520a6af9789eefdbe9d8ffa5897400
+      Hash: 937bd32666463aba58b57846a43c0973
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MenuScript
@@ -2223,6 +3420,12 @@ ScriptsOnlyBuild:
     className: VertexZoom
   - hash:
       serializedVersion: 2
+      Hash: 76d48520221971db5c60d261037202d9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowSafePath
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -2263,29 +3466,35 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 458d21aa490069ba7fc2fef5f1b8b005
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ShowSafePath
   platform: 20
   scenePathNames:
-  - Assets/Scenes/ChapterSelector.unity
   - Assets/Scenes/Introduction.unity
-  - Assets/Scenes/Chapter 1 Scenes/TilePuzzleTest.unity
-  - Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout1.unity
-  - Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout2.unity
-  - Assets/Scenes/Chapter 1 Scenes/TilePuzzleLayout3.unity
-  - Assets/Scenes/Chapter 1 Scenes/TilePuzzleTestEnd.unity
-  - Assets/Scenes/Chapter 2 Scenes/PushPuzzleTest 1.unity
-  - Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout1.unity
-  - Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout2.unity
-  - Assets/Scenes/Chapter 2 Scenes/PushPuzzleLayout3.unity
-  - Assets/Scenes/Chapter 2 Scenes/PushPuzzleTestEnd.unity
-  - Assets/Scenes/Chapter 3 Scenes/PathPuzzleTest 1.unity
-  - Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout1.unity
-  - Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout2.unity
-  - Assets/Scenes/Chapter 3 Scenes/PathPuzzleLayout3.unity
-  - Assets/Scenes/Chapter 3 Scenes/PathPuzzleTestEnd.unity
+  - Assets/Scenes/ChapterSelector.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Chapter1Intro.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Easy.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia1.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium1.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium2.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia2.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard1.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard2.unity
+  - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1End.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Chapter2Intro.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Easy.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Dia1.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium1.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium2.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Dia2.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard1.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard2.unity
+  - Assets/Scenes/Chapter 2 Scenes/In Use/Ch2End.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Chapter3Intro.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Easy.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Dia1.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium1.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium2.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Dia2.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard1.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard2.unity
+  - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3End.unity
   playerPath: D:/ResearchProject/ResearchProject/BuildFolder

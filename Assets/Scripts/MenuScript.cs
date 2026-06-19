@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     public string SceneName;
-
+    public string ChapterPref;
     private void Start()
     {
         if (SceneName == null)
@@ -21,15 +21,15 @@ public class MenuScript : MonoBehaviour
     }
     public void Chapter1Switch()
     {
-        SceneManager.LoadScene("TilePuzzleTest");
+        SceneManager.LoadScene("Chapter1Intro");
     }
     public void Chapter2Switch()
     {
-        SceneManager.LoadScene("PushPuzzleTest 1");
+        SceneManager.LoadScene("Chapter2Intro");
     }
     public void Chapter3Switch()
     {
-        SceneManager.LoadScene("PathPuzzleTest 1");
+        SceneManager.LoadScene("Chapter3Intro");
     }
     public void PlayerPrefRest()
     {
@@ -60,5 +60,10 @@ public class MenuScript : MonoBehaviour
         PlayerPrefs.SetInt(("Chapter2Complete"), (1));
         PlayerPrefs.SetInt(("Chapter3Complete"), (1));
         SceneManager.LoadScene("ChapterSelector");
+    }
+
+    public void ChapterFinishPref()
+    {
+        PlayerPrefs.SetInt((ChapterPref), (1));
     }
 }

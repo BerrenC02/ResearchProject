@@ -1,0 +1,9 @@
+com.Uni.WitchesTales.launcher-pngs-0 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.Uni.WitchesTales.launcher-resValues-1 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.Uni.WitchesTales.launcher-rs-2 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.Uni.WitchesTales.launcher-mergeReleaseResources-3 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.Uni.WitchesTales.launcher-mergeReleaseResources-4 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.Uni.WitchesTales.launcher-merged_res-5 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.Uni.WitchesTales.launcher-main-6 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.Uni.WitchesTales.launcher-release-7 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.Uni.WitchesTales.launcher-packaged_res-8 D:\ResearchProject\ResearchProject\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
