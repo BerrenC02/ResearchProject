@@ -22,6 +22,27 @@ public class UIBasedMovementC2 : MonoBehaviour
     }
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            UpArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+            DownArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            LeftArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            RightArrow();
+        }
+        else if(Input.GetKeyDown(KeyCode.E))
+        {
+            Toggle();
+        }
+
         //Allows movement as long as no objects on the wallLayer exist are in the way
         if (dir != Vector3.zero)
         {

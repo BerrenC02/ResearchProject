@@ -33,7 +33,10 @@ public class MenuScript : MonoBehaviour
     }
     public void PlayerPrefRest()
     {
-        PlayerPrefs.DeleteAll(); //Might need to be reworked in the future if PlayerPrefs are used elsewhere, fine as a temporary solution
+        PlayerPrefs.DeleteKey("IntroductionComplete");
+        PlayerPrefs.DeleteKey("Chapter1Complete");
+        PlayerPrefs.DeleteKey("Chapter2Complete");
+        PlayerPrefs.DeleteKey("Chapter3Complete");
         SceneManager.LoadScene("ChapterSelector");
     }
 
@@ -50,7 +53,6 @@ public class MenuScript : MonoBehaviour
     public void ResetScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
     }
 
     public void ChapterTestCheat() //For testing purposes, will not be in used a final product
@@ -65,5 +67,10 @@ public class MenuScript : MonoBehaviour
     public void ChapterFinishPref()
     {
         PlayerPrefs.SetInt((ChapterPref), (1));
+    }
+
+    public void SettingsScene()
+    {
+        SceneManager.LoadScene("Settings");
     }
 }

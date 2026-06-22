@@ -13,6 +13,26 @@ public class UIPlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W)) 
+        {
+            UpArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+            DownArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            LeftArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            RightArrow();
+        }
+        //Not really needed as can be played without a keyboard but is more comfortable for the web build.
+        //While both Onscreen Button and Keyboard press can be done at once it doesn't break anything as far as I can tell
+        //so will leave it as a speedy way to get through game for those confident enough in their abilities
+
         //Allows movement as long as no objects on the wallLayer exist are in the way
         if (dir != Vector3.zero)
         {

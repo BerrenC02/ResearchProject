@@ -7,12 +7,14 @@ ScriptsOnlyBuild:
     - NextTextButton
     - OneStepTiles
     - PlayerWin
+    - SettingPrefs
     - ShowSafePath
     - TemporaryPlayerPref
     - TileDestroySelf
     - TileFailCondition
     - UIBasedMovementC2
     - UIPlayerMovement
+    - VolumeManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -38,6 +40,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -69,38 +72,18 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterTestCheat
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: IntroductionSwitch
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SettingsScene
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: Chapter2Switch
@@ -117,51 +100,36 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: Chapter2Switch
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
-    methodName: SceneMove
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
+    fullTypeName: TemporaryPlayerPref
+    methodName: Press
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    fullTypeName: NextTextButton
+    methodName: ButtonPressed
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: RightArrow
   - assembly: Assembly-CSharp
@@ -173,6 +141,60 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: RightArrow
@@ -195,44 +217,8 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: Toggle
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
-    methodName: ResetScene
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: Toggle
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ResetScene
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: UIBasedMovementC2
     methodName: Toggle
@@ -255,6 +241,9 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
     fullTypeName: UIBasedMovementC2
     methodName: Toggle
   - assembly: Assembly-CSharp
@@ -272,6 +261,54 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: UIBasedMovementC2
     methodName: Toggle
@@ -300,32 +337,8 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: RightArrow
@@ -342,6 +355,9 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: RightArrow
   - assembly: Assembly-CSharp
@@ -353,6 +369,42 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: UIPlayerMovement
     methodName: RightArrow
@@ -371,6 +423,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingPrefs
+    methodName: BackgroundVolume
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingPrefs
+    methodName: SFXVolume
   sceneClasses:
     Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia1.unity:
     - Class: 1
@@ -413,6 +474,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -470,6 +533,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -542,11 +607,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23346}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -606,6 +675,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21882}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -678,11 +749,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23346}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -755,11 +830,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23346}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -832,11 +911,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23346}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -909,11 +992,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23346}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -971,6 +1058,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1028,6 +1117,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1085,6 +1176,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1160,6 +1253,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1221,6 +1316,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1298,6 +1395,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1379,6 +1478,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1458,6 +1559,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1539,6 +1642,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1657,6 +1762,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1714,6 +1821,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1786,11 +1895,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1920,11 +2033,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1997,11 +2114,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2074,11 +2195,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2151,11 +2276,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21038}
     - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
     - Class: 114
       Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2215,6 +2344,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21882}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2244,6 +2375,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -2259,9 +2392,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17156}
     - Class: 114
+      Script: {instanceID: 17392}
+    - Class: 114
       Script: {instanceID: 17878}
     - Class: 114
       Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 19432}
+    - Class: 114
+      Script: {instanceID: 19546}
+    - Class: 114
+      Script: {instanceID: 19826}
     - Class: 114
       Script: {instanceID: 20628}
     - Class: 114
@@ -2270,6 +2411,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21420}
     - Class: 114
       Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2299,8 +2442,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -2316,17 +2457,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 17392}
-    - Class: 114
       Script: {instanceID: 17878}
     - Class: 114
       Script: {instanceID: 18102}
-    - Class: 114
-      Script: {instanceID: 19432}
-    - Class: 114
-      Script: {instanceID: 19546}
-    - Class: 114
-      Script: {instanceID: 19826}
     - Class: 114
       Script: {instanceID: 20628}
     - Class: 114
@@ -2339,6 +2472,67 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21882}
     - Class: 114
       Script: {instanceID: 22544}
+    - Class: 114
+      Script: {instanceID: 33114}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Settings.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16686}
+    - Class: 114
+      Script: {instanceID: 16688}
+    - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 20548}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 21256}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21796}
+    - Class: 114
+      Script: {instanceID: 27826}
+    - Class: 114
+      Script: {instanceID: 33114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3466,10 +3660,22 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0206f97e6df2e044d0a0f56515b77314
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: d1d06fc08c8079e5316f6c8cb19a26ce
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VolumeManager
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Introduction.unity
   - Assets/Scenes/ChapterSelector.unity
+  - Assets/Scenes/Introduction.unity
   - Assets/Scenes/Chapter 1 Scenes/In Use/Chapter1Intro.unity
   - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Easy.unity
   - Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia1.unity
@@ -3497,4 +3703,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard1.unity
   - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard2.unity
   - Assets/Scenes/Chapter 3 Scenes/In Use/Ch3End.unity
+  - Assets/Scenes/Settings.unity
   playerPath: D:/ResearchProject/ResearchProject/BuildFolder(Android)/WitchesTale's.apk

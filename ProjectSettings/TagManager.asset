@@ -9,6 +9,8 @@ TagManager:
   - Pushable
   - Hole
   - SafePath
+  - SFXAudio
+  - BackgroundAudio
   layers:
   - Default
   - TransparentFX
