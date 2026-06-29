@@ -387,7 +387,7 @@ PrefabInstance:
     - target: {fileID: 49220061306572106, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 3fbf3d86c442e29479041e7c4c26f4b1, type: 3}
     - target: {fileID: 1177873816195147113, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_Name
       value: BaseCanvas
@@ -548,6 +548,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Name
       objectReference: {fileID: 0}
+    - target: {fileID: 9162517968110336806, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b7d3f501e67b78d4a946390c94a9e9cd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4257664895678986216, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
