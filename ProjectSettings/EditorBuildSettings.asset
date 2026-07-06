@@ -95,4 +95,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 2b2e2aebe0788f549b3e9e95c9f133b0
+  - enabled: 1
+    path: Assets/Scenes/HonestWoodcutter.unity
+    guid: b8b6132e0ce63144496458804409a1ed
+  - enabled: 1
+    path: Assets/Scenes/TheTortoiseandTheHare.unity
+    guid: 46978de6dfe6b344d8652e289b85ad71
+  - enabled: 1
+    path: Assets/Scenes/TheBoyWhoCriedWolf.unity
+    guid: 5d622f0a88581804f8281e834503b543
   m_configObjects: {}

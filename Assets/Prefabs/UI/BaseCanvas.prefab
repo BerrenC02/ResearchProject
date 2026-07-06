@@ -950,6 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: 
+  ChapterPref: 
 --- !u!114 &4021997294146690793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3859,6 +3860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5013481308453758714}
     m_Modifications:
+    - target: {fileID: 651441027498103512, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
+      propertyPath: m_Color.a
+      value: 0.8862745
+      objectReference: {fileID: 0}
     - target: {fileID: 5345779269376918245, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
       propertyPath: m_Name
       value: Background

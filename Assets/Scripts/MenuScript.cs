@@ -73,4 +73,18 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("Settings");
     }
+
+    public void Chapter1Story()
+    {
+        SceneManager.LoadScene("HonestWoodcutter");
+    }
+
+    public void Chapter2Story()
+    {
+        SceneManager.LoadScene("TheTortoiseandTheHare");
+    }
+    public void Chapter3Story()
+    {
+        SceneManager.LoadScene("TheBoyWhoCriedWolf");
+    }
 }
