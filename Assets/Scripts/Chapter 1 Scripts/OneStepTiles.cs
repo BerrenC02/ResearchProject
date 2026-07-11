@@ -16,10 +16,12 @@ public class OneStepTiles : MonoBehaviour
     {
         //Saves having to manually add each tile to a list in engine
         PuzzleTiles = UnityEngine.Object.FindObjectsOfType<GameObject>().Where(obj => obj.CompareTag("PuzzleTile")).ToList();
+
     }
 
     void OnTriggerEnter(Collider other)
     {
+        UIPlayerMovement playermovescript = other.GetComponentInChildren<UIPlayerMovement>();
         //Removes the visited tiles from the list upon reaching the goal
         PuzzleTiles.RemoveAll(obj => obj == null || !obj.activeInHierarchy);
 
@@ -29,14 +31,14 @@ public class OneStepTiles : MonoBehaviour
             int RemainingTile = PuzzleTiles.Count;
             if (RemainingTile == 0) //Only activates when all tiles have been visited
             {
-                other.gameObject.SetActive(false);
+                playermovescript.enabled = false;
                 Debug.Log("Solved");
                 StartCoroutine(WinSound());
             }
             else
             {
-                other.gameObject.SetActive(false);
-                Debug.Log("Failed");
+                Debug.Log("Failed due to not hitting all tiles");
+                playermovescript.enabled = false;
                 StartCoroutine(FailSound());
             }
         }

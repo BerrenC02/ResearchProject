@@ -1,21 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TileFailCondition : MonoBehaviour
 {
     public AudioSource Fail;
+    public float SFXVolume;
 
     private void Start()
     {
         Fail = GameObject.Find("FailAudio").GetComponent<AudioSource>();
+
+        SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
+        Debug.Log(SFXVolume);
+        Fail.volume = SFXVolume;
     }
 
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Failed due to double step");
-        other.gameObject.SetActive(false);
+        UIPlayerMovement playermovescript = other.GetComponentInChildren<UIPlayerMovement>();
+        playermovescript.enabled = false;
         StartCoroutine(FailSound());
     }
 

@@ -17,7 +17,15 @@ public class UIPlayerMovement : MonoBehaviour
         {
             UpArrow();
         }
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            UpArrow();
+        }
         else if (Input.GetKeyDown(KeyCode.S))
+        {
+            DownArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             DownArrow();
         }
@@ -25,7 +33,15 @@ public class UIPlayerMovement : MonoBehaviour
         {
             LeftArrow();
         }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            LeftArrow();
+        }
         else if (Input.GetKeyDown(KeyCode.D))
+        {
+            RightArrow();
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             RightArrow();
         }
