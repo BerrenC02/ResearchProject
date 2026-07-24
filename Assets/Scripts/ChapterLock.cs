@@ -32,15 +32,23 @@ public class ChapterLock : MonoBehaviour
                 text.color = Color.red;
             }
         }
-        Buttons[0].interactable = true;
-        Buttons[0].GetComponentInChildren<TMP_Text>().color = Color.black;
-        Buttons[5].interactable = true;
-        Buttons[5].GetComponentInChildren<TMP_Text>().color = Color.black;
-        Buttons[6].interactable = true;
-        Buttons[6].GetComponentInChildren<TMP_Text>().color = Color.black;
-        Buttons[7].interactable = true;
-        Buttons[7].GetComponentInChildren<TMP_Text>().color = Color.black;
+        Buttons[13].interactable = true;
+        Buttons[13].GetComponentInChildren<TMP_Text>().color = Color.black;
+        Buttons[14].interactable = true;
+        Buttons[14].GetComponentInChildren<TMP_Text>().color = Color.black;
+        Buttons[15].interactable = true;
+        Buttons[15].GetComponentInChildren<TMP_Text>().color = Color.black;
+        Buttons[16].interactable = true;
+        Buttons[16].GetComponentInChildren<TMP_Text>().color = Color.black;
+        Buttons[17].interactable = true;
+        Buttons[17].GetComponentInChildren<TMP_Text>().color = Color.black;
 
+        if (PlayerPrefs.HasKey("CharacterMade"))
+        {
+            Buttons[0].interactable = true;
+            Buttons[0].GetComponentInChildren<TMP_Text>().color = Color.black;
+        }
+        
         if (PlayerPrefs.HasKey("IntroductionComplete"))
         {
             Buttons[1].interactable = true;
@@ -51,22 +59,24 @@ public class ChapterLock : MonoBehaviour
         {
             Buttons[2].interactable = true;
             Buttons[2].GetComponentInChildren<TMP_Text>().color = Color.black;
-            Buttons[8].interactable = true;
-            Buttons[8].GetComponentInChildren<TMP_Text>().color = Color.black;
+            Buttons[3].interactable = true;
+            Buttons[3].GetComponentInChildren<TMP_Text>().color = Color.black;
         }
 
         if (PlayerPrefs.HasKey("Chapter2Complete"))
         {
-            Buttons[3].interactable = true;
-            Buttons[3].GetComponentInChildren<TMP_Text>().color = Color.black;
-            Buttons[9].interactable = true;
-            Buttons[9].GetComponentInChildren<TMP_Text>().color = Color.black;
+            Buttons[4].interactable = true;
+            Buttons[4].GetComponentInChildren<TMP_Text>().color = Color.black;
+            Buttons[5].interactable = true;
+            Buttons[5].GetComponentInChildren<TMP_Text>().color = Color.black;
         }
 
         if (PlayerPrefs.HasKey("Chapter3Complete"))
         {
-            Buttons[10].interactable = true;
-            Buttons[10].GetComponentInChildren<TMP_Text>().color = Color.black;
+            Buttons[6].interactable = true;
+            Buttons[6].GetComponentInChildren<TMP_Text>().color = Color.black;
+            //Buttons[7].interactable = true;
+            //Buttons[7].GetComponentInChildren<TMP_Text>().color = Color.black;
         }
     }
 }

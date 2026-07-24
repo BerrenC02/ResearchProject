@@ -130,6 +130,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_text
+      value: Shepherd's Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text
@@ -214,6 +222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7806136461212581041, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 730cb0eaf6df000429375b814d4913af, type: 3}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -933,6 +945,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_text
+      value: Shepherd's Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text (2)
@@ -1017,6 +1037,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7806136461212581041, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 730cb0eaf6df000429375b814d4913af, type: 3}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -1525,6 +1549,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_text
+      value: Shepherd's Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text (1)
@@ -1609,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7806136461212581041, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 730cb0eaf6df000429375b814d4913af, type: 3}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

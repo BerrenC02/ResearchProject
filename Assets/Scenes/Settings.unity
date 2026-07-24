@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e4ae6c2c3a970f646b1bb93cce7076b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0be0dff8437d70e4f80476455f616cdf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1761,6 +1761,7 @@ GameObject:
   - component: {fileID: 2110915648}
   - component: {fileID: 2110915647}
   - component: {fileID: 2110915646}
+  - component: {fileID: 2110915653}
   - component: {fileID: 2110915651}
   - component: {fileID: 2110915652}
   m_Layer: 5
@@ -1884,6 +1885,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BackgroundSlider: {fileID: 942535278}
   SFXSlider: {fileID: 1419981056}
+  toggle: 1
+  AltFont: {fileID: 11400000, guid: 5e74ad8cee494dd4ebd8cbef83368583, type: 2}
+  BasFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+--- !u!114 &2110915653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110915645}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c09683698287c498d5dd606dc9dab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AltFont: {fileID: 12800000, guid: 57d10f4be569cad4cb9face4dd568c8b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

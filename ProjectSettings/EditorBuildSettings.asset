@@ -107,4 +107,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CameraMoveWithPlayerTest.unity
     guid: 85a1f4166d4f30e48821053952dc289f
+  - enabled: 1
+    path: Assets/Scenes/CustomChar.unity
+    guid: b801bf9955a45a84fbbfc380edcdf826
   m_configObjects: {}

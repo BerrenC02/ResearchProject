@@ -16,15 +16,34 @@ public class VolumeManager : MonoBehaviour
         BackgroundAudio = UnityEngine.Object.FindObjectsOfType<AudioSource>().Where(obj => obj.CompareTag("BackgroundAudio")).ToList();
         SFXAudio = UnityEngine.Object.FindObjectsOfType<AudioSource>().Where(obj => obj.CompareTag("SFXAudio")).ToList();
 
-        BackgroundVolume = PlayerPrefs.GetFloat("BackgroundVolumeValue");
+        
+        if (PlayerPrefs.HasKey("BackgroundVolumeValue"))
+        {
+            BackgroundVolume = PlayerPrefs.GetFloat("BackgroundVolumeValue");
+        }
+        else
+        {
+            BackgroundVolume = 0.5f;
+        }
         Debug.Log(BackgroundVolume);
-        SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
-        Debug.Log(SFXVolume);
 
         foreach (AudioSource obj in BackgroundAudio)
         {
             obj.GetComponent<AudioSource>().volume = BackgroundVolume;
         }
+
+        
+
+        if (PlayerPrefs.HasKey("SFXVolumeValue"))
+        {
+            SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
+        }
+        else
+        {
+            SFXVolume = 0.5f;
+        }
+        Debug.Log(SFXVolume);
+
         foreach (AudioSource obj in SFXAudio)
         {
             obj.GetComponent<AudioSource>().volume = SFXVolume;

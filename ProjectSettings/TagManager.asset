@@ -11,6 +11,8 @@ TagManager:
   - SafePath
   - SFXAudio
   - BackgroundAudio
+  - FaceOptions
+  - HeadOptions
   layers:
   - Default
   - TransparentFX

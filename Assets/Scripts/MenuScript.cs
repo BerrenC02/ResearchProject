@@ -37,6 +37,7 @@ public class MenuScript : MonoBehaviour
         PlayerPrefs.DeleteKey("Chapter1Complete");
         PlayerPrefs.DeleteKey("Chapter2Complete");
         PlayerPrefs.DeleteKey("Chapter3Complete");
+        PlayerPrefs.DeleteKey("CharacterMade");
         SceneManager.LoadScene("ChapterSelector");
     }
 
@@ -61,6 +62,7 @@ public class MenuScript : MonoBehaviour
         PlayerPrefs.SetInt(("Chapter1Complete"), (1));
         PlayerPrefs.SetInt(("Chapter2Complete"), (1));
         PlayerPrefs.SetInt(("Chapter3Complete"), (1));
+        PlayerPrefs.SetInt(("CharacterMade"), (1));
         SceneManager.LoadScene("ChapterSelector");
     }
 
@@ -86,5 +88,10 @@ public class MenuScript : MonoBehaviour
     public void Chapter3Story()
     {
         SceneManager.LoadScene("TheBoyWhoCriedWolf");
+    }
+
+    public void CharCustom()
+    {
+        SceneManager.LoadScene("CustomChar");
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,9 @@ public class SettingPrefs : MonoBehaviour
 {
     public Slider BackgroundSlider;
     public Slider SFXSlider;
+    public bool toggle;
+    public TMP_FontAsset AltFont;
+    public TMP_FontAsset BasFont;
 
     // Update is called once per frame
     void Start()
@@ -38,6 +42,31 @@ public class SettingPrefs : MonoBehaviour
         Debug.Log(SFXSlider.value);
         PlayerPrefs.Save();
     }
+    public void Font()
+    {
+        Debug.Log("pressed");
+        toggle = !toggle;
+        Debug.Log (toggle);
+        if (toggle == false)
+        {
+            PlayerPrefs.SetFloat("ReadableFont", (0));
+            PlayerPrefs.Save();
 
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("ReadableFont", (1));
+            PlayerPrefs.Save();
+        }
 
+        TMP_FontAsset fontToUse = toggle ? AltFont : BasFont;
+        Debug.Log(fontToUse);
+
+        TMP_Text[] texts = GameObject.FindObjectsOfType<TMP_Text>();
+        foreach (TMP_Text txt in texts)
+        {
+            txt.font = fontToUse;
+        }
+
+    }
 }
