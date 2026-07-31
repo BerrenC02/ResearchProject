@@ -368,6 +368,7 @@
 "Assets/Scripts/CharCustom/LoadCustom.cs"
 "Assets/Scripts/FontChange.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/MusicSelect.cs"
 "Assets/Scripts/NextTextButton.cs"
 "Assets/Scripts/PlayerTileMovement.cs"
 "Assets/Scripts/PlayerWin.cs"

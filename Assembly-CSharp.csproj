@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\Chapter 1 Scripts\OneStepTiles.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\PlayerWin.cs" />
+    <Compile Include="Assets\Scripts\MusicSelect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

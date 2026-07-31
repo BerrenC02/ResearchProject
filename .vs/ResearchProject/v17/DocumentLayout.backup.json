@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\ResearchProject\\ResearchProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\settingprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\fontchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fontchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\musicselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|d:\\researchproject\\researchproject\\assets\\scripts\\volumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\fontchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fontchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\settingprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\charcustomcolour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\loadcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\loadcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MusicSelect.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MusicSelect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicSelect.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MusicSelect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicSelect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T20:07:10.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SettingPrefs.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\SettingPrefs.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SettingPrefs.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\SettingPrefs.cs",
               "RelativeToolTip": "Assets\\Scripts\\SettingPrefs.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-24T16:14:59.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FontChange.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\FontChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FontChange.cs",
@@ -72,58 +89,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "VolumeManager.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\VolumeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VolumeManager.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\VolumeManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\VolumeManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T07:46:49.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScript.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T07:33:04.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CharCustomColour.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomColour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\CharCustomColour.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomColour.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharCustom\\CharCustomColour.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwB0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T10:52:20.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "CharCustomOption.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAcwIMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T10:51:34.401Z"
+              "WhenOpened": "2026-07-20T10:51:34.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoadCustom.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\LoadCustom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\LoadCustom.cs",
@@ -135,13 +153,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ChapterLock.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ChapterLock.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChapterLock.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ChapterLock.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChapterLock.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwDAAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T14:43:04.729Z"
             }

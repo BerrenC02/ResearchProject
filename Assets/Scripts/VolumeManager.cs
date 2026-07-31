@@ -11,12 +11,13 @@ public class VolumeManager : MonoBehaviour
     public float SFXVolume;
 
     // Start is called before the first frame update
+    
     void Start()
     {
+
         BackgroundAudio = UnityEngine.Object.FindObjectsOfType<AudioSource>().Where(obj => obj.CompareTag("BackgroundAudio")).ToList();
         SFXAudio = UnityEngine.Object.FindObjectsOfType<AudioSource>().Where(obj => obj.CompareTag("SFXAudio")).ToList();
 
-        
         if (PlayerPrefs.HasKey("BackgroundVolumeValue"))
         {
             BackgroundVolume = PlayerPrefs.GetFloat("BackgroundVolumeValue");
@@ -31,8 +32,6 @@ public class VolumeManager : MonoBehaviour
         {
             obj.GetComponent<AudioSource>().volume = BackgroundVolume;
         }
-
-        
 
         if (PlayerPrefs.HasKey("SFXVolumeValue"))
         {

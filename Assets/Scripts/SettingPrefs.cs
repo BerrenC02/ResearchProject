@@ -12,6 +12,8 @@ public class SettingPrefs : MonoBehaviour
     public bool toggle;
     public TMP_FontAsset AltFont;
     public TMP_FontAsset BasFont;
+    public Button nextButton;
+    public Button prevButton;
 
     // Update is called once per frame
     void Start()
@@ -28,6 +30,8 @@ public class SettingPrefs : MonoBehaviour
             SFXSlider.value = savedVolume;
             PlayerPrefs.Save(); //Saves the value
         }
+        nextButton.onClick.AddListener(() => MusicSelect.Instance.FaceRightArrow());
+        prevButton.onClick.AddListener(() => MusicSelect.Instance.HeadLeftArrow());
     }
 
     public void BackgroundVolume()
@@ -35,6 +39,7 @@ public class SettingPrefs : MonoBehaviour
         PlayerPrefs.SetFloat("BackgroundVolumeValue", (BackgroundSlider.value));
         Debug.Log (BackgroundSlider.value);
         PlayerPrefs.Save();
+
     }
     public void SFXVolume()
     {

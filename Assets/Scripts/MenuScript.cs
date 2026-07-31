@@ -94,4 +94,10 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("CustomChar");
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+        Debug.Log("Game Quit");
+    }
 }
