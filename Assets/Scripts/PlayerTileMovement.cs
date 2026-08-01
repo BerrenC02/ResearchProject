@@ -8,9 +8,24 @@ public class PlayerTileMovement : MonoBehaviour
     public float distance;
     public float checkdistance = 0.4f;
     public LayerMask wallLayer;
-    public AudioSource Crash;
+    public AudioSource InvalidMove;
+    public AudioSource ValidMove;
     private Vector3 dir;
+    public bool Chapter1;
+    public bool Chapter3;
 
+    private void Start()
+    {
+        if (Chapter1 == true)
+        {
+            ValidMove = GameObject.Find("MoveSuccessCh1").GetComponent<AudioSource>();
+        }
+        else if (Chapter3 == false)
+        {
+            ValidMove = GameObject.Find("MoveSuccessCh2/3").GetComponent<AudioSource>();
+        }
+        InvalidMove = GameObject.Find("MoveFail").GetComponent<AudioSource>();
+    }
     void Update()
     {
         dir = Vector3.zero;
@@ -40,10 +55,11 @@ public class PlayerTileMovement : MonoBehaviour
             if (!Physics.CheckSphere(target, checkdistance, wallLayer))
             {
                 transform.position = target;
+                ValidMove.PlayOneShot(ValidMove.clip);
             }
             else
             {
-                Crash.Play();
+                InvalidMove.PlayOneShot(InvalidMove.clip);
             }
         }
     }

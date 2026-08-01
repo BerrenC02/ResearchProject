@@ -5,6 +5,12 @@ using UnityEngine;
 public class FillHole : MonoBehaviour
 {
     public GameObject self;
+    public AudioSource HoleFill;
+
+    private void Start()
+    {
+        HoleFill = GameObject.Find("HoleFill").GetComponent<AudioSource>();
+    }
     void OnCollisionEnter(UnityEngine.Collision collision)
     {
 
@@ -12,6 +18,7 @@ public class FillHole : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
             self.SetActive(false);
+            HoleFill.PlayOneShot(HoleFill.clip);
         }
     }
 }

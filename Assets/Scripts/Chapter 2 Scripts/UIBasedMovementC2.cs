@@ -9,16 +9,24 @@ public class UIBasedMovementC2 : MonoBehaviour
     public float checkdistance = 0.4f;
     public LayerMask wallLayer;
     public LayerMask holeLayer;
-    public AudioSource Crash;
     public bool Push = false;
     public Color[] colours;
     public GameObject Player;
     public GameObject PushParticle;
     private Vector3 dir;
 
+    public AudioSource InvalidMove;
+    public AudioSource ValidMove;
+    public AudioSource ToggleOn;
+    public AudioSource ToggleOff;
+
     private void Start()
     {
         PushParticle.SetActive(false);
+        InvalidMove = GameObject.Find("MoveFail").GetComponent<AudioSource>();
+        ValidMove = GameObject.Find("MoveSuccessCh2/3").GetComponent<AudioSource>();
+        ToggleOn = GameObject.Find("ToggleCh2On").GetComponent<AudioSource>();
+        ToggleOff = GameObject.Find("ToggleCh2Off").GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -71,6 +79,7 @@ public class UIBasedMovementC2 : MonoBehaviour
             {
                 transform.position = target;
                 dir = Vector3.zero;
+                ValidMove.PlayOneShot(ValidMove.clip);
                 return;
             }
             else if (hits.Length > 0 && hits[0].CompareTag("Pushable") && Push == true)
@@ -83,23 +92,25 @@ public class UIBasedMovementC2 : MonoBehaviour
                     {
                         hits[0].transform.position = PushObjectNewPos;
                         transform.position = target;
+                        ValidMove.PlayOneShot(ValidMove.clip);
                     }
                     else if (holecheck[0].CompareTag("Hole"))
                     {
                         hits[0].transform.position = PushObjectNewPos;
                         transform.position = target;
+                        ValidMove.PlayOneShot(ValidMove.clip);
                     }
                     dir = Vector3.zero;
                 }
                 else
                 {
-                    Crash.Play();
+                    InvalidMove.PlayOneShot(InvalidMove.clip);
                     dir = Vector3.zero;
                 }
             }
             else
             {
-                Crash.Play();
+                InvalidMove.PlayOneShot(InvalidMove.clip);
                 dir = Vector3.zero;
             }
             
@@ -132,11 +143,13 @@ public class UIBasedMovementC2 : MonoBehaviour
         {
             Player.GetComponent<Renderer>().material.color = colours[0];
             PushParticle.SetActive(false);
+            ToggleOff.PlayOneShot(ToggleOff.clip);
         }
         if (Push == true)
         {
             Player.GetComponent<Renderer>().material.color = colours[1];
             PushParticle.SetActive(true);
+            ToggleOn.PlayOneShot(ToggleOn.clip);
         }
     }
 }

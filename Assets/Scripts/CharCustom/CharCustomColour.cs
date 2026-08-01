@@ -24,6 +24,8 @@ public class CharCustomColour : MonoBehaviour
     public int HeadColourPos;
     public TextMeshProUGUI HeadColourText;
 
+    public AudioSource UISFX;
+
     private void Start()
     {
         FaceOptions = UnityEngine.Object.FindObjectsOfType<GameObject>(true).Where(obj => obj.CompareTag("FaceOptions")).OrderBy(obj => obj.name).ToList();
@@ -79,7 +81,7 @@ public class CharCustomColour : MonoBehaviour
 
         HeadColourText.text = ("Option " + ((HeadColourPos + 1).ToString()));
 
-
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
     }
     public void FaceLeftArrow()
     {
@@ -96,6 +98,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             FaceColourText.text = ("Option " + ((FaceColourPos + 1).ToString()));
+            Press();
         }
         else if (FaceColourPos != 0)
         {
@@ -110,6 +113,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             FaceColourText.text = ("Option " + ((FaceColourPos + 1).ToString()));
+            Press();
         }
     }
     public void FaceRightArrow()
@@ -127,6 +131,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             FaceColourText.text = ("Option " + ((FaceColourPos + 1).ToString()));
+            Press();
         }
         else if (FaceColourPos != MaxFaceColors)
         {
@@ -141,6 +146,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             FaceColourText.text = ("Option " + ((FaceColourPos + 1).ToString()));
+            Press();
         }
     }
 
@@ -159,6 +165,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             HeadColourText.text = ("Option " + ((HeadColourPos + 1).ToString()));
+            Press();
         }
         else if (HeadColourPos != 0)
         {
@@ -173,6 +180,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             HeadColourText.text = ("Option " + ((HeadColourPos + 1).ToString()));
+            Press();
         }
     }
 
@@ -191,6 +199,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             HeadColourText.text = ("Option " + ((HeadColourPos + 1).ToString()));
+            Press();
         }
         else if (HeadColourPos != MaxHeadColors)
         {
@@ -205,6 +214,7 @@ public class CharCustomColour : MonoBehaviour
                 }
             }
             HeadColourText.text = ("Option " + ((HeadColourPos + 1).ToString()));
+            Press();
         }
     }
 
@@ -216,5 +226,10 @@ public class CharCustomColour : MonoBehaviour
         Debug.Log(FacePos + "saved");
         PlayerPrefs.Save();
 
+    }
+
+    private void Press()
+    {
+        UISFX.PlayOneShot(UISFX.clip);
     }
 }

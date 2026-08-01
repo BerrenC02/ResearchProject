@@ -16,7 +16,8 @@ public class OneStepTiles : MonoBehaviour
     {
         //Saves having to manually add each tile to a list in engine
         PuzzleTiles = UnityEngine.Object.FindObjectsOfType<GameObject>().Where(obj => obj.CompareTag("PuzzleTile")).ToList();
-
+        Solved = GameObject.Find("PuzzleSuccess").GetComponent<AudioSource>();
+        Fail = GameObject.Find("PuzzleFailCh1").GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter(Collider other)

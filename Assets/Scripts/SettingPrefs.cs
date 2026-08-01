@@ -14,6 +14,7 @@ public class SettingPrefs : MonoBehaviour
     public TMP_FontAsset BasFont;
     public Button nextButton;
     public Button prevButton;
+    public AudioSource UISFX;
 
     // Update is called once per frame
     void Start()
@@ -32,6 +33,8 @@ public class SettingPrefs : MonoBehaviour
         }
         nextButton.onClick.AddListener(() => MusicSelect.Instance.FaceRightArrow());
         prevButton.onClick.AddListener(() => MusicSelect.Instance.HeadLeftArrow());
+
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
     }
 
     public void BackgroundVolume()

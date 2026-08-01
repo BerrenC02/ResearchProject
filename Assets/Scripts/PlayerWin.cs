@@ -8,13 +8,12 @@ public class PlayerWin : MonoBehaviour
 {
 
     public GameObject Target;
-    public AudioSource Solved;
-    public AudioSource Fail;
+    public AudioSource PuzzleSuccess;
     public string NextScene;
 
     private void Start()
     {
-
+        PuzzleSuccess = GameObject.Find("PuzzleSuccess").GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -30,8 +29,8 @@ public class PlayerWin : MonoBehaviour
 
     IEnumerator WinSound()
     {
-        float solveduration = Solved.clip.length;
-        Solved.PlayOneShot(Solved.clip);
+        float solveduration = PuzzleSuccess.clip.length;
+        PuzzleSuccess.PlayOneShot(PuzzleSuccess.clip);
         AsyncOperation sceneLoading = SceneManager.LoadSceneAsync(NextScene);
         sceneLoading.allowSceneActivation = false;
         yield return new WaitForSeconds(solveduration);

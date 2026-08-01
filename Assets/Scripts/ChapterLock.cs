@@ -21,6 +21,7 @@ public class ChapterLock : MonoBehaviour
             cb.normalColor = col;
             cb.highlightedColor = col;
             cb.pressedColor = col;
+            cb.selectedColor = col;
             cb.disabledColor = col;
             cb.colorMultiplier = 1f;
             obj.colors = cb;

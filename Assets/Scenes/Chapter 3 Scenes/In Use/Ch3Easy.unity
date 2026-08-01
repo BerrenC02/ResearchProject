@@ -1110,6 +1110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FailTile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter3
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3717906102261216590, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -1474,6 +1482,14 @@ PrefabInstance:
     - target: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_Name
       value: FailTile (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3717906102261216590, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3536,6 +3552,14 @@ PrefabInstance:
     - target: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_Name
       value: FailTile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3717906102261216590, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9237,6 +9261,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FailTile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter3
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3717906102261216590, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -11772,6 +11804,10 @@ PrefabInstance:
       propertyPath: Crash
       value: 
       objectReference: {fileID: 1755117951}
+    - target: {fileID: 5931187983703507262, guid: 70acbb70bcc0871469ede7072f8b9cf6, type: 3}
+      propertyPath: Chapter3
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7204386308404554047, guid: 70acbb70bcc0871469ede7072f8b9cf6, type: 3}
       propertyPath: m_Name
       value: BasePlayer(UI)
@@ -14026,6 +14062,14 @@ PrefabInstance:
     - target: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_Name
       value: FailTile (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012303443156268322, guid: 966296890433a594a868c3e2ecffb936, type: 3}
+      propertyPath: Chapter3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3717906102261216590, guid: 966296890433a594a868c3e2ecffb936, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27300,8 +27344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 1864896390}
-  Solved: {fileID: 38843415}
-  Fail: {fileID: 1915057546}
+  PuzzleSuccess: {fileID: 0}
   NextScene: Ch3Dia1
 --- !u!1 &1881928785
 GameObject:

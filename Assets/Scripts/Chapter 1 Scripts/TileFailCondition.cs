@@ -8,11 +8,19 @@ public class TileFailCondition : MonoBehaviour
 {
     public AudioSource Fail;
     public float SFXVolume;
+    public bool Chapter1;
+    public bool Chapter3;
 
     private void Start()
     {
-        Fail = GameObject.Find("FailAudio").GetComponent<AudioSource>();
-
+        if (Chapter1 == true)
+        {
+            Fail = GameObject.Find("PuzzleFailCh1").GetComponent<AudioSource>();
+        }
+        else if (Chapter3 == true)
+        {
+            Fail = GameObject.Find("PuzzleFailCh3").GetComponent<AudioSource>();
+        }
         SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
         Debug.Log(SFXVolume);
         Fail.volume = SFXVolume;

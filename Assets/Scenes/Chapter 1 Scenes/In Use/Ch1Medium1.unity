@@ -5290,6 +5290,10 @@ PrefabInstance:
       propertyPath: Crash
       value: 
       objectReference: {fileID: 1755117951}
+    - target: {fileID: 5931187983703507262, guid: 70acbb70bcc0871469ede7072f8b9cf6, type: 3}
+      propertyPath: Chapter1
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7204386308404554047, guid: 70acbb70bcc0871469ede7072f8b9cf6, type: 3}
       propertyPath: m_Name
       value: BasePlayer(UI)

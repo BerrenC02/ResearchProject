@@ -2790,6 +2790,7 @@ MonoBehaviour:
   MaxHead: 0
   Headtext: {fileID: 363108404}
   HeadPos: 0
+  UISFX: {fileID: 0}
 --- !u!224 &1345784789 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5013481308453758714, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
@@ -2837,6 +2838,18 @@ MonoBehaviour:
   MaxHeadColors: 0
   HeadColourPos: 0
   HeadColourText: {fileID: 2098730483}
+  UISFX: {fileID: 0}
+--- !u!114 &1345784795 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4002629883013389506, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+  m_PrefabInstance: {fileID: 153922003}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345784783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f0c1b851e53e46bd8c3391559ae49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1390449564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3940,6 +3953,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1345784784}
         m_TargetAssemblyTypeName: CharCustomOption, Assembly-CSharp
         m_MethodName: ExitScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1345784795}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: ChapterSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

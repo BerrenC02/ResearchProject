@@ -17,6 +17,8 @@ public class CharCustomOption : MonoBehaviour
     public TextMeshProUGUI Headtext;
     public int HeadPos;
 
+    public AudioSource UISFX;
+
     private void Start()
     {
         
@@ -41,6 +43,8 @@ public class CharCustomOption : MonoBehaviour
         HeadPos = PlayerPrefs.GetInt("HeadOption");
         HeadOptions[HeadPos].SetActive(true);
         Headtext.text = ("Option " + ((HeadPos + 1).ToString()));
+
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
     }
     public void FaceLeftArrow()
     {
@@ -52,6 +56,7 @@ public class CharCustomOption : MonoBehaviour
             Debug.Log(FacePos);
             FaceOptions[FacePos].SetActive(true);
             Facetext.text = ("Option " + ((FacePos + 1).ToString()));
+            Press();
         }
         else if (FacePos != 0)
         {
@@ -60,6 +65,7 @@ public class CharCustomOption : MonoBehaviour
             FaceOptions[FacePos].SetActive(true);
             Debug.Log(FacePos);
             Facetext.text = ("Option " + ((FacePos + 1).ToString()));
+            Press();
         }
     }
     public void FaceRightArrow()
@@ -72,6 +78,7 @@ public class CharCustomOption : MonoBehaviour
             Debug.Log(FacePos);
             FaceOptions[FacePos].SetActive(true);
             Facetext.text = ("Option " + ((FacePos + 1).ToString()));
+            Press();
         }
         else if (FacePos != MaxFace)
         {
@@ -80,6 +87,7 @@ public class CharCustomOption : MonoBehaviour
             FaceOptions[FacePos].SetActive(true);
             Debug.Log(FacePos);
             Facetext.text = ("Option " + ((FacePos + 1).ToString()));
+            Press();
         }
     }
 
@@ -92,6 +100,7 @@ public class CharCustomOption : MonoBehaviour
             Debug.Log(HeadPos);
             HeadOptions[HeadPos].SetActive(true);
             Headtext.text = ("Option " + ((HeadPos + 1).ToString()));
+            Press();
         }
         else if (HeadPos != 0)
         {
@@ -100,6 +109,7 @@ public class CharCustomOption : MonoBehaviour
             HeadOptions[HeadPos].SetActive(true);
             Debug.Log(HeadPos);
             Headtext.text = ("Option " + ((HeadPos + 1).ToString()));
+            Press();
         }
     }
 
@@ -112,6 +122,7 @@ public class CharCustomOption : MonoBehaviour
             Debug.Log(HeadPos);
             HeadOptions[HeadPos].SetActive(true);
             Headtext.text = ("Option " + ((HeadPos + 1).ToString()));
+            Press();
         }
         else if (HeadPos != MaxHead)
         {
@@ -120,6 +131,7 @@ public class CharCustomOption : MonoBehaviour
             HeadOptions[HeadPos].SetActive(true);
             Debug.Log(HeadPos);
             Headtext.text = ("Option " + ((HeadPos + 1).ToString()));
+            Press();
         }
     }
 
@@ -131,7 +143,11 @@ public class CharCustomOption : MonoBehaviour
         Debug.Log(FacePos + "saved");
         PlayerPrefs.SetInt(("CharacterMade"), (1));
         PlayerPrefs.Save();
-        SceneManager.LoadScene("ChapterSelector");
 
-}
+    }
+
+    private void Press()
+    {
+        UISFX.PlayOneShot(UISFX.clip);
+    }
 }

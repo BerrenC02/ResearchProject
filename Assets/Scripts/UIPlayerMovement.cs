@@ -8,8 +8,24 @@ public class UIPlayerMovement : MonoBehaviour
     public float distance = 5;
     public float checkdistance = 0.4f;
     public LayerMask wallLayer;
-    public AudioSource Crash;
+    public AudioSource InvalidMove;
+    public AudioSource ValidMove;
     private Vector3 dir;
+    public bool Chapter1;
+    public bool Chapter3;
+
+    private void Start()
+    {
+        if (Chapter1 == true)
+        {
+            ValidMove = GameObject.Find("MoveSuccessCh1").GetComponent<AudioSource>();
+        }
+        else if (Chapter3 == true)
+        {
+            ValidMove = GameObject.Find("MoveSuccessCh2/3").GetComponent<AudioSource>();
+        }
+        InvalidMove = GameObject.Find("MoveFail").GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -56,12 +72,13 @@ public class UIPlayerMovement : MonoBehaviour
 
             if (!Physics.CheckSphere(target, checkdistance, wallLayer))
             {
+                ValidMove.PlayOneShot(ValidMove.clip);
                 transform.position = target;
                 dir = Vector3.zero;
             }
             else
             {
-                Crash.Play();
+                InvalidMove.PlayOneShot(InvalidMove.clip);
                 dir = Vector3.zero;
             }
         }

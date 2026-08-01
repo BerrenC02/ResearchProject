@@ -31368,7 +31368,10 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 8
-  Crash: {fileID: 9125440098489081443}
+  InvalidMove: {fileID: 0}
+  ValidMove: {fileID: 0}
+  Chapter1: 1
+  Chapter3: 0
 --- !u!82 &9125440098489081443
 AudioSource:
   m_ObjectHideFlags: 0

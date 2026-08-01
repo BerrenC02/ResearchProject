@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 using TMPro;
 using UnityEngine;
@@ -7,9 +8,12 @@ using UnityEngine;
 public class MusicSelect : MonoBehaviour
 {
     public List<AudioSource> BackgroundAudio;
+    public List<AudioSource> SFXAudio;
     public int MaxBG;
     public int BGPos;
     public float BackgroundVolume;
+    public float SFXVolume;
+    public AudioSource UISFX;
 
 
     public static MusicSelect Instance;
@@ -45,6 +49,8 @@ public class MusicSelect : MonoBehaviour
         }
         MaxBG--;
         BackgroundAudio[BGPos].Play();
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
+        SFXAudio = UnityEngine.Object.FindObjectsOfType<AudioSource>().Where(obj => obj.CompareTag("SFXAudio")).ToList();
     }
 
     public void Update()
@@ -62,6 +68,19 @@ public class MusicSelect : MonoBehaviour
         {
             obj.GetComponent<AudioSource>().volume = BackgroundVolume;
         }
+
+        if (PlayerPrefs.HasKey("SFXVolumeValue"))
+        {
+            SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
+        }
+        else
+        {
+            SFXVolume = 0.5f;
+        }
+        foreach (AudioSource obj in SFXAudio)
+        {
+            obj.GetComponent<AudioSource>().volume = SFXVolume;
+        }
     }
     public void FaceRightArrow()
     {
@@ -73,6 +92,7 @@ public class MusicSelect : MonoBehaviour
             BackgroundAudio[BGPos].Play();
             PlayerPrefs.SetInt("BGTrack", (BGPos));
             PlayerPrefs.Save();
+            UISFX.PlayOneShot(UISFX.clip);
         }
         else if (BGPos != MaxBG)
         {
@@ -82,6 +102,7 @@ public class MusicSelect : MonoBehaviour
             BackgroundAudio[BGPos].Play();
             PlayerPrefs.SetInt("BGTrack", (BGPos));
             PlayerPrefs.Save();
+            UISFX.PlayOneShot(UISFX.clip);
 
         }
     }
@@ -96,6 +117,7 @@ public class MusicSelect : MonoBehaviour
             BackgroundAudio[BGPos].Play();
             PlayerPrefs.SetInt("BGTrack", (BGPos));
             PlayerPrefs.Save();
+            UISFX.PlayOneShot(UISFX.clip);
 
         }
         else if (BGPos != 0)
@@ -106,6 +128,7 @@ public class MusicSelect : MonoBehaviour
             BackgroundAudio[BGPos].Play();
             PlayerPrefs.SetInt("BGTrack", (BGPos));
             PlayerPrefs.Save();
+            UISFX.PlayOneShot(UISFX.clip);
 
         }
     }

@@ -9,6 +9,8 @@ public class NextTextButton : MonoBehaviour
     public GameObject[] Text;
     public int CurrentDialouge;
     public int MaxDialouge;
+    public AudioSource UISFX;
+
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class NextTextButton : MonoBehaviour
             MaxDialouge++;
         }
         Text[0].SetActive(true);
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
     }
 
 
@@ -28,6 +31,7 @@ public class NextTextButton : MonoBehaviour
         if (CurrentDialouge <= MaxDialouge)
         {
             Text[CurrentDialouge].SetActive(true);
+            UISFX.PlayOneShot(UISFX.clip);
         }
         else
         {

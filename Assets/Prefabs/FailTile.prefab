@@ -120,6 +120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fail: {fileID: 4560510477460891610}
+  SFXVolume: 0
+  Chapter1: 1
+  Chapter3: 0
 --- !u!1 &1827944624692162112
 GameObject:
   m_ObjectHideFlags: 0
