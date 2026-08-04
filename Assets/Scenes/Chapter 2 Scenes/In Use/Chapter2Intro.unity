@@ -135,7 +135,19 @@ PrefabInstance:
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -236,15 +248,28 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nThis second chapter is taken from Aesop's Fables \nand is called
         \"The Tortoise and The Hare\u201D"
       objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7697533897629848497, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -775,12 +800,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -881,12 +926,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nYour task is to help move rocks around in order to \nform a path
         for the repair crews to use."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1035,6 +1092,7 @@ MonoBehaviour:
   - {fileID: 776600666}
   CurrentDialouge: 0
   MaxDialouge: 0
+  UISFX: {fileID: 0}
 --- !u!114 &773313585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,6 +1107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Ch2Easy
   ChapterPref: 
+  UISFX: {fileID: 0}
+  TargetScene: 
 --- !u!1 &776600666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1465,12 +1525,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1571,13 +1651,25 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: "\nUnfortunately, these rocks are too heavy for you to move, \nso you
-        have temporarily been given an enchantment to allow you to move them. \nTo
-        use this enchantment, you have to press the push button."
+      value: "\n\nUnfortunately, these rocks are too heavy for you to move, \nso
+        you have temporarily been given an enchantment to allow you to move them.
+        \nTo use this enchantment, you have to press the push button."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1592,12 +1684,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1698,12 +1810,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nTo do this you need to push the rocks around in order \nto form a
         path from one side of the section to the other."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1812,12 +1936,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1918,12 +2062,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nHowever, due to the magic ink the racetrack that the \nstory takes
         place at has been badly damaged"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1938,12 +2094,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Eagest Forer
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -2052,6 +2228,18 @@ PrefabInstance:
 
         Good luck puppet, the Tortoise should meet you at the start
         of the track.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8647412677218703686, guid: 8dbc14247555eec42baf4ac47dd46c79, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

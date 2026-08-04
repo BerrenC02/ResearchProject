@@ -33,11 +33,41 @@ public class NextTextButton : MonoBehaviour
             Text[CurrentDialouge].SetActive(true);
             UISFX.PlayOneShot(UISFX.clip);
         }
-        else
+        else if (CurrentDialouge == MaxDialouge)
         {
+            //do nothing
             Debug.Log("End of Dialouge");
         }
 
+    }
 
+    public void ForwardArrow()
+    {
+        Debug.Log(CurrentDialouge);
+        if (CurrentDialouge != MaxDialouge)
+        {
+            Text[CurrentDialouge].SetActive(false);
+            CurrentDialouge = CurrentDialouge + 1;
+            Text[CurrentDialouge].SetActive(true);
+            Debug.Log(CurrentDialouge);
+            Press();
+        }
+    }
+    public void BackArrow()
+    {
+        Debug.Log(CurrentDialouge);
+        if (CurrentDialouge != 0)
+        {
+            Text[CurrentDialouge].SetActive(false);
+            CurrentDialouge = CurrentDialouge - 1;
+            Text[CurrentDialouge].SetActive(true);
+            Debug.Log(CurrentDialouge);
+            Press();
+        }
+    }
+
+    private void Press()
+    {
+        UISFX.PlayOneShot(UISFX.clip);
     }
 }

@@ -20,6 +20,9 @@ public class UIBasedMovementC2 : MonoBehaviour
     public AudioSource ToggleOn;
     public AudioSource ToggleOff;
 
+    public GameObject ToggleOnImage;
+    public GameObject ToggleOffImage;
+
     private void Start()
     {
         PushParticle.SetActive(false);
@@ -27,6 +30,11 @@ public class UIBasedMovementC2 : MonoBehaviour
         ValidMove = GameObject.Find("MoveSuccessCh2/3").GetComponent<AudioSource>();
         ToggleOn = GameObject.Find("ToggleCh2On").GetComponent<AudioSource>();
         ToggleOff = GameObject.Find("ToggleCh2Off").GetComponent<AudioSource>();
+
+        ToggleOnImage = GameObject.Find("PushToggleOn");
+        ToggleOffImage = GameObject.Find("PushToggleOff");
+
+        ToggleOffImage.SetActive(false);
     }
     void Update()
     {
@@ -144,12 +152,17 @@ public class UIBasedMovementC2 : MonoBehaviour
             Player.GetComponent<Renderer>().material.color = colours[0];
             PushParticle.SetActive(false);
             ToggleOff.PlayOneShot(ToggleOff.clip);
+            ToggleOnImage.SetActive(true);
+            ToggleOffImage.SetActive(false);
+
         }
         if (Push == true)
         {
             Player.GetComponent<Renderer>().material.color = colours[1];
             PushParticle.SetActive(true);
             ToggleOn.PlayOneShot(ToggleOn.clip);
+            ToggleOnImage.SetActive(false);
+            ToggleOffImage.SetActive(true);
         }
     }
 }

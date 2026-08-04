@@ -334,6 +334,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 173304803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8154659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7470392184090040117, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
+  m_PrefabInstance: {fileID: 374254733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &10763761
 GameObject:
   m_ObjectHideFlags: 0
@@ -21633,6 +21638,11 @@ Transform:
   - {fileID: 45551292}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1557439160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7378467373964244236, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
+  m_PrefabInstance: {fileID: 374254733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1563256832
 GameObject:
   m_ObjectHideFlags: 0
@@ -26341,8 +26351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 1864896390}
-  Solved: {fileID: 38843415}
-  Fail: {fileID: 1915057546}
+  PuzzleSuccess: {fileID: 0}
   NextScene: Ch2Dia1
 --- !u!1 &1881928785
 GameObject:
@@ -29692,6 +29701,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8818152186268183404, guid: 03bdd3ec15879024992a9027c0c9ab76, type: 3}
+      propertyPath: ToggleOnImage
+      value: 
+      objectReference: {fileID: 8154659}
+    - target: {fileID: 8818152186268183404, guid: 03bdd3ec15879024992a9027c0c9ab76, type: 3}
+      propertyPath: ToggleOffImage
+      value: 
+      objectReference: {fileID: 1557439160}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

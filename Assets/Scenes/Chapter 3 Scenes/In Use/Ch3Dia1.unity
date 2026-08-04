@@ -140,12 +140,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -250,13 +270,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: "\nAs we go, I will be drawing the path down \nin my notebook, so I
-        do not forget the way again"
+      value: "\nAs we go, I will be drawing the path down \non my map, so I do not
+        forget the way again"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2055376804925734708, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1926526742}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
 --- !u!1001 &408072066
@@ -396,7 +431,19 @@ PrefabInstance:
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -497,16 +544,29 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nWelcome to my farm puppet, thank you \nfor coming all this way to
         help me out"
       objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2055376804925734708, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+    - {fileID: 7697533897629848497, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -729,6 +789,7 @@ MonoBehaviour:
   - {fileID: 1860754437}
   CurrentDialouge: 0
   MaxDialouge: 0
+  UISFX: {fileID: 0}
 --- !u!114 &773313585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,6 +804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Ch3Medium1
   ChapterPref: 
+  UISFX: {fileID: 0}
+  TargetScene: 
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,12 +892,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -931,12 +1014,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nI would ask my Father for help, but he \nis at a farmer fair and
         won\u2019t be back for a few days, so you are my only hope"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1037,12 +1132,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1143,13 +1258,25 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\n\nA few days ago, an empty bucket fell on my head, ever since that
         day \nI have not been able to remember where the local \nvillage is, what
         is weird is we don\u2019t own any buckets"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1364,7 +1491,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3d2e8e7da6c9e624ebac7e8d4b514966, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2241339537906724778, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8156527930557304965, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
       insertIndex: 0
@@ -1393,6 +1521,124 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
   m_PrefabInstance: {fileID: 294592843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1926526741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1860754440}
+    m_Modifications:
+    - target: {fileID: 6851247041525717639, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 45f40e457aa89c44a986e02226b3e11f, type: 3}
+    - target: {fileID: 6851247041525717639, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851247041525717639, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6851247041525717639, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233558603776470561, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Name
+      value: PropImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+--- !u!224 &1926526742 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8213631840088077021, guid: 363fbbd16f4598747bc0d2d95120819e, type: 3}
+  m_PrefabInstance: {fileID: 1926526741}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

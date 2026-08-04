@@ -140,12 +140,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -242,12 +262,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nThat is why being able to reach the village is \nimportant for both
         me and my father."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -263,12 +295,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -377,6 +429,18 @@ PrefabInstance:
 
         Since that incident, I have spent a long time rebuilding
         that trust'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -717,6 +781,7 @@ MonoBehaviour:
   - {fileID: 1330622213}
   CurrentDialouge: 0
   MaxDialouge: 0
+  UISFX: {fileID: 0}
 --- !u!114 &773313585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,6 +796,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Ch3Hard1
   ChapterPref: 
+  UISFX: {fileID: 0}
+  TargetScene: 
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +879,19 @@ PrefabInstance:
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -909,16 +988,29 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nMy father told me to ask the Villagers for help \nif a Wolf should
         ever appear while I am watching the flock"
       objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2055376804925734708, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+    - {fileID: 7697533897629848497, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -930,12 +1022,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1032,12 +1144,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nOnce I abused the trust the Villagers had by \nplaying tricks on
         them for fun"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1068,12 +1192,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 773313583}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 773313584}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Shepherd's Boy
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1170,12 +1314,24 @@ PrefabInstance:
       objectReference: {fileID: 773313584}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonPressed
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: "\nIn the end, when I needed their help, I was \nnot believed because
         of these tricks even when I spoke the truth"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

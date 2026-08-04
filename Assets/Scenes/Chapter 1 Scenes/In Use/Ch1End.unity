@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00048828125, y: -200}
+  m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290694671
@@ -318,8 +318,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Would you like to hear my story now? '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+  m_sharedMaterial: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -419,7 +419,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296034258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -452,8 +452,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lady of the Lake
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+  m_sharedMaterial: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -477,8 +477,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -612,7 +612,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1989569310}
         m_TargetAssemblyTypeName: NextTextButton, Assembly-CSharp
-        m_MethodName: ButtonPressed
+        m_MethodName: ForwardArrow
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -772,7 +772,27 @@ PrefabInstance:
       value: Lady of the Lake
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -921,14 +941,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: '
-
-        Very well, feel free to come back to hear my story if you
-        change your mind'
+      value: "\nVery well, feel free to come back to hear my \nstory if you change
+        your mind"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2055376804925734708, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+    - {fileID: 7697533897629848497, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -940,12 +971,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119603450}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1989569310}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Lady of the Lake
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1054,7 +1113,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3fbf3d86c442e29479041e7c4c26f4b1, type: 3}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -1063,7 +1122,7 @@ PrefabInstance:
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1119603448}
+      objectReference: {fileID: 1989569310}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1074,7 +1133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Press
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1082,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TemporaryPlayerPref, Assembly-CSharp
+      value: NextTextButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -1096,6 +1155,18 @@ PrefabInstance:
       propertyPath: m_text
       value: "\nMy lake has now been returned to its original state \nand the magic
         ink\u2019s influence has now disappeared."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1287,6 +1358,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Thank you, puppet, for all your help here.
       objectReference: {fileID: 0}
+    - target: {fileID: 1342481501779726058, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 1342481501779726058, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 1342481501779726058, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1440436712491826559, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: Text.Array.size
       value: 5
@@ -1317,7 +1400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -1326,7 +1409,7 @@ PrefabInstance:
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1119603448}
+      objectReference: {fileID: 1989569310}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1337,7 +1420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Press
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1345,7 +1428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TemporaryPlayerPref, Assembly-CSharp
+      value: NextTextButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1584900546477037270, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -1448,7 +1531,27 @@ PrefabInstance:
       value: Lady of the Lake
       objectReference: {fileID: 0}
     - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529243333992866644, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7011709380020840397, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
@@ -1468,6 +1571,7 @@ PrefabInstance:
     - {fileID: 906721935523218285, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
     - {fileID: 5051808493197451908, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
     - {fileID: 8105354469981572815, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+    - {fileID: 443895838684340810, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5013481308453758714, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       insertIndex: -1
@@ -1534,12 +1638,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119603450}
     m_Modifications:
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1989569310}
+    - target: {fileID: 987323822036249737, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackArrow
+      objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
       value: Lady of the Lake
       objectReference: {fileID: 0}
     - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919999309029298863, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
@@ -1648,7 +1780,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3fbf3d86c442e29479041e7c4c26f4b1, type: 3}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -1657,7 +1789,7 @@ PrefabInstance:
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1119603448}
+      objectReference: {fileID: 1989569310}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1668,7 +1800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Press
+      value: ForwardArrow
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1676,7 +1808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TemporaryPlayerPref, Assembly-CSharp
+      value: NextTextButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -1690,6 +1822,18 @@ PrefabInstance:
       propertyPath: m_text
       value: "\nNow this my story can play out as it was originally \nintended because
         of your actions, thank you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3684987980556011051, guid: 9c35595635a9b424f8b249b89ef69537, type: 2}
+    - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
