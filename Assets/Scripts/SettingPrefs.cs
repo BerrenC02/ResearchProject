@@ -10,8 +10,6 @@ public class SettingPrefs : MonoBehaviour
     public Slider BackgroundSlider;
     public Slider SFXSlider;
     public bool toggle;
-    public TMP_FontAsset AltFont;
-    public TMP_FontAsset BasFont;
     public Button nextButton;
     public Button prevButton;
     public AudioSource UISFX;
@@ -35,6 +33,15 @@ public class SettingPrefs : MonoBehaviour
         prevButton.onClick.AddListener(() => MusicSelect.Instance.HeadLeftArrow());
 
         UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
+        float toggletemp = PlayerPrefs.GetInt("ReadableFont", 0);
+        if (toggletemp == 0)
+        {
+            toggle = false;
+        }
+        else if (toggletemp == 1)
+        {
+            toggle = true;
+        }
     }
 
     public void BackgroundVolume()
@@ -53,27 +60,25 @@ public class SettingPrefs : MonoBehaviour
     public void Font()
     {
         Debug.Log("pressed");
-        toggle = !toggle;
+        if (toggle == false)
+        {
+            toggle = true;
+        }
+        else if (toggle == true) 
+        {
+            toggle = false;
+        }
         Debug.Log (toggle);
         if (toggle == false)
         {
-            PlayerPrefs.SetFloat("ReadableFont", (0));
+            PlayerPrefs.SetInt("ReadableFont", (0));
             PlayerPrefs.Save();
 
         }
-        else
+        else if (toggle == true)
         {
-            PlayerPrefs.SetFloat("ReadableFont", (1));
+            PlayerPrefs.SetInt("ReadableFont", (1));
             PlayerPrefs.Save();
-        }
-
-        TMP_FontAsset fontToUse = toggle ? AltFont : BasFont;
-        Debug.Log(fontToUse);
-
-        TMP_Text[] texts = GameObject.FindObjectsOfType<TMP_Text>();
-        foreach (TMP_Text txt in texts)
-        {
-            txt.font = fontToUse;
         }
 
     }

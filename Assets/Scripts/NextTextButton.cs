@@ -43,13 +43,13 @@ public class NextTextButton : MonoBehaviour
 
     public void ForwardArrow()
     {
-        Debug.Log(CurrentDialouge);
+        //Debug.Log(CurrentDialouge);
         if (CurrentDialouge != MaxDialouge)
         {
             Text[CurrentDialouge].SetActive(false);
             CurrentDialouge = CurrentDialouge + 1;
             Text[CurrentDialouge].SetActive(true);
-            Debug.Log(CurrentDialouge);
+            //Debug.Log(CurrentDialouge);
             Press();
         }
     }

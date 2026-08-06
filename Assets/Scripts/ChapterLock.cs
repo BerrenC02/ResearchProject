@@ -43,8 +43,7 @@ public class ChapterLock : MonoBehaviour
         Buttons[16].GetComponentInChildren<TMP_Text>().color = Color.black;
         Buttons[17].interactable = true;
         Buttons[17].GetComponentInChildren<TMP_Text>().color = Color.black;
-        Buttons[18].interactable = true;
-        Buttons[18].GetComponentInChildren<TMP_Text>().color = Color.black;
+
 
         if (PlayerPrefs.HasKey("CharacterMade"))
         {

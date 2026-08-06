@@ -63,7 +63,7 @@ public class MusicSelect : MonoBehaviour
         {
             BackgroundVolume = 0.5f;
         }
-        Debug.Log(BackgroundVolume);
+        //Debug.Log(BackgroundVolume);
         foreach (AudioSource obj in BackgroundAudio)
         {
             obj.GetComponent<AudioSource>().volume = BackgroundVolume;

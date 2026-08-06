@@ -837,6 +837,7 @@ GameObject:
   - component: {fileID: 3121095281071424369}
   - component: {fileID: 7823084182228812611}
   - component: {fileID: 2890462450557391025}
+  - component: {fileID: 3483982220203270214}
   - component: {fileID: 4002629883013389506}
   - component: {fileID: 4021997294146690793}
   - component: {fileID: 1440436712491826559}
@@ -937,6 +938,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3483982220203270214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177873816195147113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c09683698287c498d5dd606dc9dab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AltFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
 --- !u!114 &4002629883013389506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,6 +965,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: 
   ChapterPref: 
+  UISFX: {fileID: 0}
+  TargetScene: 
 --- !u!114 &4021997294146690793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -987,6 +1003,7 @@ MonoBehaviour:
   - {fileID: 4257664895678986216}
   CurrentDialouge: 0
   MaxDialouge: 0
+  UISFX: {fileID: 0}
 --- !u!1 &1490754892388423489
 GameObject:
   m_ObjectHideFlags: 0

@@ -6477,7 +6477,6 @@ MonoBehaviour:
   - {fileID: 1218258944}
   - {fileID: 739882823}
   - {fileID: 111774165}
-  - {fileID: 0}
   - {fileID: 2061928167}
   col: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &2110915651

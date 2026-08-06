@@ -10,20 +10,22 @@ public class TileFailCondition : MonoBehaviour
     public float SFXVolume;
     public bool Chapter1;
     public bool Chapter3;
+    public GameObject Crack;
+    public GameObject Hole;
 
     private void Start()
     {
+        Hole.SetActive(false);
         if (Chapter1 == true)
         {
             Fail = GameObject.Find("PuzzleFailCh1").GetComponent<AudioSource>();
         }
         else if (Chapter3 == true)
         {
+            Crack.SetActive(false);
             Fail = GameObject.Find("PuzzleFailCh3").GetComponent<AudioSource>();
         }
-        SFXVolume = PlayerPrefs.GetFloat("SFXVolumeValue");
         Debug.Log(SFXVolume);
-        Fail.volume = SFXVolume;
     }
 
     void OnTriggerEnter(Collider other)
@@ -31,6 +33,11 @@ public class TileFailCondition : MonoBehaviour
         Debug.Log("Failed due to double step");
         UIPlayerMovement playermovescript = other.GetComponentInChildren<UIPlayerMovement>();
         playermovescript.enabled = false;
+        if (Chapter1 == true)
+        {
+            Crack.SetActive(false);
+            Hole.SetActive(true);
+        }
         StartCoroutine(FailSound());
     }
 

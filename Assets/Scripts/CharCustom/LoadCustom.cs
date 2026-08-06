@@ -52,7 +52,6 @@ public class LoadCustom : MonoBehaviour
         foreach (GameObject obj in FaceOptions)
         {
             Image img = obj.GetComponentInChildren<Image>(true);
-            Debug.Log(img);
             if (img != null)
             {
                 img.color = FaceColors[FaceColourPos];
@@ -69,7 +68,6 @@ public class LoadCustom : MonoBehaviour
         foreach (GameObject obj in HeadOptions)
         {
             Image img = obj.GetComponentInChildren<Image>(true);
-            Debug.Log(img);
             if (img != null)
             {
                 img.color = HeadColors[HeadColourPos];
