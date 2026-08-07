@@ -30,6 +30,10 @@ public class FontChange : MonoBehaviour
             }
             Debug.Log("alt font " + Active);
         }
+        else
+        {
+            Active = false;
+        }
         if (Active == true)
         {
             Debug.Log(TMP_Texts);

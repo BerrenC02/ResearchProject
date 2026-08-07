@@ -19,6 +19,7 @@ public class UIBasedMovementC2 : MonoBehaviour
     public AudioSource ValidMove;
     public AudioSource ToggleOn;
     public AudioSource ToggleOff;
+    public AudioSource PushRock;
 
     public GameObject ToggleOnImage;
     public GameObject ToggleOffImage;
@@ -30,6 +31,7 @@ public class UIBasedMovementC2 : MonoBehaviour
         ValidMove = GameObject.Find("MoveSuccessCh2/3").GetComponent<AudioSource>();
         ToggleOn = GameObject.Find("ToggleCh2On").GetComponent<AudioSource>();
         ToggleOff = GameObject.Find("ToggleCh2Off").GetComponent<AudioSource>();
+        PushRock = GameObject.Find("PushRock").GetComponent<AudioSource>();
 
         ToggleOnImage = GameObject.Find("PushToggleOn");
         ToggleOffImage = GameObject.Find("PushToggleOff");
@@ -101,12 +103,14 @@ public class UIBasedMovementC2 : MonoBehaviour
                         hits[0].transform.position = PushObjectNewPos;
                         transform.position = target;
                         ValidMove.PlayOneShot(ValidMove.clip);
+                        PushRock.PlayOneShot(PushRock.clip);
                     }
                     else if (holecheck[0].CompareTag("Hole"))
                     {
                         hits[0].transform.position = PushObjectNewPos;
                         transform.position = target;
                         ValidMove.PlayOneShot(ValidMove.clip);
+                        PushRock.PlayOneShot(PushRock.clip);
                     }
                     dir = Vector3.zero;
                 }
@@ -149,7 +153,6 @@ public class UIBasedMovementC2 : MonoBehaviour
         Push = !Push;
         if (Push == false)
         {
-            Player.GetComponent<Renderer>().material.color = colours[0];
             PushParticle.SetActive(false);
             ToggleOff.PlayOneShot(ToggleOff.clip);
             ToggleOnImage.SetActive(true);
@@ -158,7 +161,6 @@ public class UIBasedMovementC2 : MonoBehaviour
         }
         if (Push == true)
         {
-            Player.GetComponent<Renderer>().material.color = colours[1];
             PushParticle.SetActive(true);
             ToggleOn.PlayOneShot(ToggleOn.clip);
             ToggleOnImage.SetActive(false);

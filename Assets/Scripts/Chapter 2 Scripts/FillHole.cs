@@ -6,6 +6,7 @@ public class FillHole : MonoBehaviour
 {
     public GameObject self;
     public AudioSource HoleFill;
+    public GameObject HoleFillPrefab;
 
     private void Start()
     {
@@ -16,9 +17,10 @@ public class FillHole : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Pushable"))
         {
+            Instantiate(HoleFillPrefab, transform.position, transform.rotation);
+            HoleFill.PlayOneShot(HoleFill.clip);
             collision.gameObject.SetActive(false);
             self.SetActive(false);
-            HoleFill.PlayOneShot(HoleFill.clip);
         }
     }
 }

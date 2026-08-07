@@ -5,8 +5,10 @@ ScriptsOnlyBuild:
     - CharCustomColour
     - CharCustomOption
     - FillHole
+    - FontChange
     - LoadCustom
     - MenuScript
+    - MusicSelect
     - NextTextButton
     - OneStepTiles
     - PlayerWin
@@ -110,19 +112,31 @@ ScriptsOnlyBuild:
     methodName: PlayerPrefRest
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
-    methodName: SceneMove
+    methodName: Exit
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: Chapter2Story
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
@@ -131,31 +145,52 @@ ScriptsOnlyBuild:
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
@@ -173,19 +208,91 @@ ScriptsOnlyBuild:
     methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
@@ -221,67 +328,10 @@ ScriptsOnlyBuild:
     methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: TemporaryPlayerPref
-    methodName: Press
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: TemporaryPlayerPref
     methodName: Press
@@ -290,61 +340,52 @@ ScriptsOnlyBuild:
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: Chapter1Story
   - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: Toggle
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ResetScene
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
@@ -370,6 +411,27 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
@@ -390,24 +452,60 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
@@ -430,9 +528,6 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
     fullTypeName: UIBasedMovementC2
     methodName: Toggle
   - assembly: Assembly-CSharp
@@ -451,32 +546,35 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterFinishPref
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterFinishPref
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterFinishPref
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
@@ -484,98 +582,44 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: Chapter2Story
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
@@ -595,6 +639,42 @@ ScriptsOnlyBuild:
     fullTypeName: UIPlayerMovement
     methodName: UpArrow
   - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
@@ -611,10 +691,70 @@ ScriptsOnlyBuild:
     methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
@@ -623,7 +763,7 @@ ScriptsOnlyBuild:
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
@@ -638,79 +778,175 @@ ScriptsOnlyBuild:
     methodName: BackgroundVolume
   - assembly: Assembly-CSharp
     fullTypeName: SettingPrefs
+    methodName: Font
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingPrefs
     methodName: SFXVolume
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ButtonPressed
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
@@ -756,6 +992,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CharCustomOption
     methodName: ExitScene
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
   sceneClasses:
     Assets/Scenes/CameraMoveWithPlayerTest.unity:
     - Class: 1
@@ -807,24 +1046,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -870,21 +1101,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -933,21 +1164,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -991,10 +1222,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1014,28 +1241,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1077,21 +1300,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1135,10 +1358,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1158,28 +1377,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1239,28 +1454,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1297,10 +1508,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1320,28 +1527,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1378,10 +1581,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1401,28 +1600,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23358}
+      Script: {instanceID: 23362}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1464,21 +1659,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
-    - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1527,21 +1720,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1590,21 +1783,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1648,10 +1841,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1669,22 +1858,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 20638}
-    - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1734,19 +1915,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1790,10 +1971,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1811,24 +1988,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 18898}
+      Script: {instanceID: 18900}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 20638}
-    - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1873,10 +2042,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1894,24 +2059,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 18898}
+      Script: {instanceID: 18900}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 20638}
-    - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1956,10 +2113,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -1977,22 +2130,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 20638}
-    - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2037,10 +2182,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2058,24 +2199,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 18898}
+      Script: {instanceID: 18900}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19660}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 20638}
-    - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2125,17 +2258,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 21810}
+    - Class: 114
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2184,19 +2319,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2245,19 +2380,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2301,10 +2436,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2322,30 +2453,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2387,17 +2514,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 21810}
+    - Class: 114
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2441,10 +2570,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2462,30 +2587,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2522,10 +2643,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2543,30 +2660,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2603,10 +2716,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2624,30 +2733,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2684,10 +2789,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2705,30 +2806,26 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18754}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19376}
     - Class: 114
-      Script: {instanceID: 19374}
+      Script: {instanceID: 21052}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21048}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21266}
-    - Class: 114
-      Script: {instanceID: 21430}
-    - Class: 114
-      Script: {instanceID: 21806}
-    - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2770,21 +2867,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2818,6 +2915,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -2837,21 +2938,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19442}
     - Class: 114
-      Script: {instanceID: 19440}
+      Script: {instanceID: 19556}
     - Class: 114
-      Script: {instanceID: 19554}
+      Script: {instanceID: 19838}
     - Class: 114
-      Script: {instanceID: 19836}
+      Script: {instanceID: 20166}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2900,17 +3001,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19690}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 19692}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21810}
+    - Class: 114
+      Script: {instanceID: 21818}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2959,21 +3062,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 21894}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3020,19 +3123,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 18864}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 18866}
     - Class: 114
-      Script: {instanceID: 20558}
+      Script: {instanceID: 20562}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3081,19 +3184,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3142,19 +3245,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3203,19 +3306,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18104}
     - Class: 114
-      Script: {instanceID: 19070}
+      Script: {instanceID: 18732}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19072}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 20642}
     - Class: 114
-      Script: {instanceID: 21266}
+      Script: {instanceID: 21270}
     - Class: 114
-      Script: {instanceID: 21430}
+      Script: {instanceID: 21434}
     - Class: 114
-      Script: {instanceID: 21806}
+      Script: {instanceID: 21810}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3325,7 +3428,7 @@ ScriptsOnlyBuild:
     className: ChapterLock
   - hash:
       serializedVersion: 2
-      Hash: 959e0fa3618229a8a70a8051173ce361
+      Hash: 0ef2ee736078d4cde693b8c81423b2d5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TileDestroySelf
@@ -3559,7 +3662,13 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71c248a6337171492423e219828ccf07
+      Hash: 4477e11675cbf120fd2ab11f318072a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FontChange
+  - hash:
+      serializedVersion: 2
+      Hash: bde20cb85a2af6b7a272c33bdf2385c9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerWin
@@ -3583,7 +3692,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 0206f97e6df2e044d0a0f56515b77314
+      Hash: 3c972df9a490741a41731ff200ad2823
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingPrefs
@@ -3595,7 +3704,7 @@ ScriptsOnlyBuild:
     className: TextMeshProFloatingText
   - hash:
       serializedVersion: 2
-      Hash: 2d4889e4a117c410a894560d3a87ee18
+      Hash: 9071b917b6d1c5159c14ca515787ded8
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FillHole
@@ -3679,7 +3788,7 @@ ScriptsOnlyBuild:
     className: VolumeManager
   - hash:
       serializedVersion: 2
-      Hash: ff8dfc7a963ba4aa6079e604ad181459
+      Hash: b93e52760ac22671306100f49539691e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TileFailCondition
@@ -3751,13 +3860,13 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: 2635c62563ffe955003562682cf7fed4
+      Hash: 14093ba0d5b86263bf8b869749ff467c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIBasedMovementC2
   - hash:
       serializedVersion: 2
-      Hash: 3426f83c46e66e4caf4648765a79361d
+      Hash: 66d3aba85b3729ba13ef9feb4c917652
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CharCustomOption
@@ -3815,6 +3924,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: b9e91ec31381c3c6f6b69cf9489d7106
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MusicSelect
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -3973,13 +4088,13 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 4691095f78ea54c9944f6e3756adf0e2
+      Hash: ea3be9792e34e0ee6b6fe4bfc5f4f95a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIPlayerMovement
   - hash:
       serializedVersion: 2
-      Hash: 90e5a6819cf40b697780435f2025c81d
+      Hash: f187dccbe4cfba96b457fc01a3849c16
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerTileMovement
@@ -3997,7 +4112,7 @@ ScriptsOnlyBuild:
     className: Benchmark02
   - hash:
       serializedVersion: 2
-      Hash: 937bd32666463aba58b57846a43c0973
+      Hash: 89d61972901c1ef52e79b2b46ad88c5b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MenuScript
@@ -4051,7 +4166,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: e9a12708512cc747540c47a1afadbb01
+      Hash: f9abad1df6ff54befc517615a82acabe
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CharCustomColour
@@ -4189,7 +4304,7 @@ ScriptsOnlyBuild:
     className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 5ecf234ea7d0b76c77b802a399537114
+      Hash: 5e0a71ef4202030b1b9a6fe6aac40d32
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NextTextButton
