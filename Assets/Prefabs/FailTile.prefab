@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6868444007889674446}
   - component: {fileID: 6253558097540061899}
   - component: {fileID: 3012303443156268322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FailTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

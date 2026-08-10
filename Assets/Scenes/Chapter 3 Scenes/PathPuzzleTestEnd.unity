@@ -254,6 +254,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: ChapterSelector
+  ChapterPref: 
+  UISFX: {fileID: 0}
+  TargetScene: 
 --- !u!1 &327386092
 GameObject:
   m_ObjectHideFlags: 0

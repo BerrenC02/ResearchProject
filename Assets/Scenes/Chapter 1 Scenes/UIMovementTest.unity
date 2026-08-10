@@ -1842,7 +1842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &129045857
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,7 +7503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &555562307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9423,7 +9423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &697251735
 GameObject:
   m_ObjectHideFlags: 0
@@ -9756,7 +9756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &707290224
 GameObject:
   m_ObjectHideFlags: 0
@@ -12842,7 +12842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &990866783
 GameObject:
   m_ObjectHideFlags: 0
@@ -17327,7 +17327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!65 &1256264350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23675,7 +23675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &1646228574
 GameObject:
   m_ObjectHideFlags: 0
@@ -24040,7 +24040,10 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 8
-  Crash: {fileID: 1755117951}
+  InvalidMove: {fileID: 0}
+  ValidMove: {fileID: 0}
+  Chapter1: 0
+  Chapter3: 0
 --- !u!1 &1662536839
 GameObject:
   m_ObjectHideFlags: 0
@@ -28917,7 +28920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FailTile: {fileID: 1744551837789428381, guid: 966296890433a594a868c3e2ecffb936, type: 3}
-  Collected: {fileID: 351583772}
+  Crack: {fileID: 0}
 --- !u!1 &2004955837
 GameObject:
   m_ObjectHideFlags: 0

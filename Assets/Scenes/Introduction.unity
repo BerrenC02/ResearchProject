@@ -995,6 +995,8 @@ MonoBehaviour:
   - {fileID: 730602701}
   - {fileID: 2083456430}
   - {fileID: 1145865781}
+  TextFont: {fileID: 0}
+  Settings: 0
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3100,6 +3102,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8686279372089689405, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 47b0c174e61f3384d86f80ea01603400, type: 3}
     - target: {fileID: 8686279372089689405, guid: 4d0716fa70b68d04eaa86169075aebfa, type: 3}
       propertyPath: m_Color.a
       value: 1
