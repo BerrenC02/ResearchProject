@@ -118,9 +118,6 @@ ScriptsOnlyBuild:
     methodName: Chapter2Story
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
@@ -134,6 +131,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -160,15 +160,6 @@ ScriptsOnlyBuild:
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
@@ -190,49 +181,10 @@ ScriptsOnlyBuild:
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: BackArrow
@@ -255,20 +207,14 @@ ScriptsOnlyBuild:
     fullTypeName: UIPlayerMovement
     methodName: UpArrow
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: BackArrow
@@ -294,44 +240,92 @@ ScriptsOnlyBuild:
     fullTypeName: NextTextButton
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -349,6 +343,12 @@ ScriptsOnlyBuild:
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
@@ -357,21 +357,6 @@ ScriptsOnlyBuild:
     fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
@@ -386,48 +371,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: Toggle
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIBasedMovementC2
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ResetScene
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: SceneMove
@@ -453,6 +411,48 @@ ScriptsOnlyBuild:
     fullTypeName: MenuScript
     methodName: ResetScene
   - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: Toggle
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIBasedMovementC2
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ResetScene
+  - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
@@ -545,30 +545,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ResetScene
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -583,6 +583,15 @@ ScriptsOnlyBuild:
     methodName: Chapter2Story
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
@@ -590,6 +599,96 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: SceneMove
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: RightArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: LeftArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: DownArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPlayerMovement
+    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -613,48 +712,6 @@ ScriptsOnlyBuild:
     methodName: SceneMove
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
@@ -695,69 +752,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: SceneMove
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: RightArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: LeftArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: DownArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: UIPlayerMovement
-    methodName: UpArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterFinishPref
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -796,6 +796,21 @@ ScriptsOnlyBuild:
     methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChapterSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
@@ -818,6 +833,27 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -859,10 +895,49 @@ ScriptsOnlyBuild:
     methodName: ChapterSelect
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
     methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: ForwardArrow
+  - assembly: Assembly-CSharp
+    fullTypeName: NextTextButton
+    methodName: BackArrow
   - assembly: Assembly-CSharp
     fullTypeName: NextTextButton
     methodName: ForwardArrow
@@ -872,81 +947,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuScript
-    methodName: ChapterSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: BackArrow
-  - assembly: Assembly-CSharp
-    fullTypeName: NextTextButton
-    methodName: ForwardArrow
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: ChapterSelect
