@@ -286,23 +286,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_LocalScale.y
-      value: 7.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_LocalScale.z
-      value: 7.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -383
+      value: -397
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 1406294173042021624, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -339,6 +339,14 @@ PrefabInstance:
     - target: {fileID: 1440436712491826559, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: Text.Array.data[6]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788269047779178856, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462062255773398146, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4346998766893489008, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_Sprite
@@ -1305,7 +1313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d318e67c8328f534e8941b15811e18d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: efdc40b99aa5c0a4a8c0b951829cd55d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3282,7 +3290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d318e67c8328f534e8941b15811e18d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: efdc40b99aa5c0a4a8c0b951829cd55d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

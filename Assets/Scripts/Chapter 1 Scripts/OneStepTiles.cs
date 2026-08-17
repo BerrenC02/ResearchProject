@@ -10,7 +10,8 @@ public class OneStepTiles : MonoBehaviour
     public GameObject Target;
     public AudioSource Solved;
     public AudioSource Fail;
-    public string NextScene;
+    public List<string> NextScene;
+    public GameObject UIControls;
 
     private void Start()
     {
@@ -18,6 +19,8 @@ public class OneStepTiles : MonoBehaviour
         PuzzleTiles = UnityEngine.Object.FindObjectsOfType<GameObject>().Where(obj => obj.CompareTag("PuzzleTile")).ToList();
         Solved = GameObject.Find("PuzzleSuccess").GetComponent<AudioSource>();
         Fail = GameObject.Find("PuzzleFailCh1").GetComponent<AudioSource>();
+
+        UIControls = GameObject.Find("PlayerControls");
     }
 
     void OnTriggerEnter(Collider other)
@@ -34,12 +37,14 @@ public class OneStepTiles : MonoBehaviour
             {
                 playermovescript.enabled = false;
                 Debug.Log("Solved");
+                UIControls.SetActive(false);
                 StartCoroutine(WinSound());
             }
             else
             {
                 Debug.Log("Failed due to not hitting all tiles");
                 playermovescript.enabled = false;
+                UIControls.SetActive(false);
                 StartCoroutine(FailSound());
             }
         }
@@ -62,9 +67,10 @@ public class OneStepTiles : MonoBehaviour
 
     IEnumerator WinSound()
     {
+        string TargetScene = NextScene[Random.Range(0, NextScene.Count)];
         float solveduration = Solved.clip.length;
         Fail.PlayOneShot(Solved.clip);
-        AsyncOperation sceneLoading = SceneManager.LoadSceneAsync(NextScene);
+        AsyncOperation sceneLoading = SceneManager.LoadSceneAsync(TargetScene);
         sceneLoading.allowSceneActivation = false;
         yield return new WaitForSeconds(solveduration);
         while (sceneLoading.progress < 0.9f) yield return null;

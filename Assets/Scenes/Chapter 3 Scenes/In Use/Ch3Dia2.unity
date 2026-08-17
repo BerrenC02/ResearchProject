@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -349,6 +353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -439,7 +447,7 @@ PrefabInstance:
       objectReference: {fileID: 773313585}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneMove
+      value: MultiSceneMove
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -447,10 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: '
-
-        Since that incident, I have spent a long time rebuilding
-        that trust'
+      value: "\nSince that incident, I have spent a \nlong time rebuilding that trust."
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_fontAsset
@@ -843,6 +848,9 @@ MonoBehaviour:
   ChapterPref: 
   UISFX: {fileID: 0}
   TargetScene: 
+  NextScene:
+  - Ch3Hard1
+  - Ch3Hard11
 --- !u!114 &773313586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,6 +875,8 @@ MonoBehaviour:
   - {fileID: 1595373884}
   - {fileID: 512427387}
   - {fileID: 512427386}
+  TextFont: {fileID: 0}
+  Settings: 0
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1061,8 +1075,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: "\nMy father told me to ask the Villagers for help \nif a Wolf should
-        ever appear while I am watching the flock"
+      value: "\nMy father told me to ask the Villagers for help if a \nWolf should
+        ever appear while I am watching the flock."
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_fontAsset
@@ -1144,6 +1158,10 @@ PrefabInstance:
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
@@ -1337,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1431,7 +1453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: "\nIn the end, when I needed their help, I was \nnot believed because
+      value: "\nIn the end, when I needed their help, I was not \nbelieved because
         of these tricks even when I spoke the truth"
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}

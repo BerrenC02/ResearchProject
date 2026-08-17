@@ -1265,6 +1265,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DownArrow
       objectReference: {fileID: 0}
+    - target: {fileID: 6813804832940429460, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 661736084}
+    - target: {fileID: 6813804832940429460, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813804832940429460, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIBasedMovementC2, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8829901370904019638, guid: 7dc71856d2bf90241a43a75beb5f320d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1450,7 +1462,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -26362,7 +26374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1864896390}
   PuzzleSuccess: {fileID: 0}
-  NextScene: Ch2End
+  NextScene:
+  - Ch2End
 --- !u!1 &1881928785
 GameObject:
   m_ObjectHideFlags: 0

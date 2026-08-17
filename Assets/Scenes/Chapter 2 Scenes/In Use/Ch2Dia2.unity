@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: NextTextButton, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 2887697578448788907, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3483982220203270214, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: TMP_Texts.Array.size
       value: 12
@@ -249,6 +253,18 @@ PrefabInstance:
     - target: {fileID: 4002629883013389506, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: SceneName
       value: Ch2Hard1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002629883013389506, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: NextScene.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002629883013389506, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: NextScene.Array.data[0]
+      value: Ch2Hard1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002629883013389506, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
+      propertyPath: NextScene.Array.data[1]
+      value: Ch2Hard11
       objectReference: {fileID: 0}
     - target: {fileID: 5013481308453758714, guid: c2748adcc244c0341ac3a02100942d64, type: 3}
       propertyPath: m_Pivot.x
@@ -580,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -682,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 751053661}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneMove
+      value: MultiSceneMove
       objectReference: {fileID: 0}
     - target: {fileID: 8720261923152242477, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -779,6 +799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -889,8 +913,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: He is a hardworking type while his friend the Hare relies more on his
-        talent
+      value: "\nHe is a hardworking type while his \nfriend the Hare relies more
+        on his talent"
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_fontAsset
@@ -968,6 +992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1078,7 +1106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: Based on where you came from you have already met the Tortoise
+      value: "\nBased on where you came from \nyou have already met the Tortoise"
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_fontAsset
@@ -1332,6 +1360,10 @@ PrefabInstance:
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
@@ -1616,6 +1648,10 @@ PrefabInstance:
     - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Name
       value: Text1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x

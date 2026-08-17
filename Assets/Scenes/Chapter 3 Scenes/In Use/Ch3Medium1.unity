@@ -1748,7 +1748,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -20229,7 +20229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1864896390}
   PuzzleSuccess: {fileID: 0}
-  NextScene: Ch3Medium2
+  NextScene:
+  - Ch3Medium2
+  - Ch3Medium22
 --- !u!1 &1881928785
 GameObject:
   m_ObjectHideFlags: 0

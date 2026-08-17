@@ -28908,7 +28908,8 @@ MonoBehaviour:
   Target: {fileID: 1864896390}
   Solved: {fileID: 0}
   Fail: {fileID: 0}
-  NextScene: Ch1Dia1
+  NextScene:
+  - Ch1Dia1
 --- !u!1 &1881928785
 GameObject:
   m_ObjectHideFlags: 0

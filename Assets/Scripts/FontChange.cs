@@ -12,8 +12,11 @@ public class FontChange : MonoBehaviour
     public List<TMP_Text> TMP_Texts;
     public TMP_FontAsset TextFont;
     public bool Settings;
-    
+    private GameObject[] textObjects;
+
     // Start is called before the first frame update
+
+
     void Start()
     {
         if (PlayerPrefs.HasKey("ReadableFont"))
@@ -36,8 +39,10 @@ public class FontChange : MonoBehaviour
         }
         if (Active == true)
         {
+
+            TMP_Text[] texts = GetComponentsInChildren<TMP_Text>(true);
             Debug.Log(TMP_Texts);
-            foreach (TMP_Text txt in TMP_Texts)
+            foreach (TMP_Text txt in texts)
             {
                 txt.font = AltFont;
             }

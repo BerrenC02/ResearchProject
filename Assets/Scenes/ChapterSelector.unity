@@ -6626,6 +6626,7 @@ MonoBehaviour:
   ChapterPref: 
   UISFX: {fileID: 0}
   TargetScene: 
+  NextScene: []
 --- !u!1 &2113161023
 GameObject:
   m_ObjectHideFlags: 0

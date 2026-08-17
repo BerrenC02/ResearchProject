@@ -27754,11 +27754,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef1a4a700ddf4847a44726a54d3d215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PuzzleTiles: []
+  PuzzleTiles:
+  - {fileID: 0}
   Target: {fileID: 1864896390}
   Solved: {fileID: 0}
   Fail: {fileID: 0}
-  NextScene: Ch1Medium2
+  NextScene:
+  - Ch1Medium2
+  - Ch1Medium22
 --- !u!1001 &1866728457
 PrefabInstance:
   m_ObjectHideFlags: 0

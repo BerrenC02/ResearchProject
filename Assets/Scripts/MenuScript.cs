@@ -12,6 +12,9 @@ public class MenuScript : MonoBehaviour
     public string ChapterPref;
     public AudioSource UISFX;
     public string TargetScene;
+    public List<string> NextScene;
+
+
     private void Start()
     {
         if (SceneName == null)
@@ -133,6 +136,29 @@ public class MenuScript : MonoBehaviour
         while (sceneLoading.progress < 0.9f) yield return null;
         sceneLoading.allowSceneActivation = true;
     }
+
+    public void MultiSceneMove()
+    {
+        StartCoroutine(UIButtonSFXRandom());
+    }
+
+    IEnumerator UIButtonSFXRandom()
+    {
+        string MultiTargetScene = NextScene[Random.Range(0, NextScene.Count)];
+        Lock();
+        //Gets the length of the sound clip then plays the sound
+        float duration = UISFX.clip.length;
+        UISFX.PlayOneShot(UISFX.clip);
+        //Starts to load scene in the background 
+        AsyncOperation sceneLoading = SceneManager.LoadSceneAsync(MultiTargetScene);
+        //Stops the scene from loading by keeping it inactive
+        sceneLoading.allowSceneActivation = false;
+        //Pauses for duration of sound clip before moving to next line
+        yield return new WaitForSeconds(duration);
+        while (sceneLoading.progress < 0.9f) yield return null;
+        sceneLoading.allowSceneActivation = true;
+    }
+
     private void Lock() 
     {
         //Prevents multiple button presses while sound is playing

@@ -154,6 +154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -351,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Before I head back home, would you like to hear my story now? '
+  m_text: "\nBefore I head back home, \nwould you like to hear my story now? "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
   m_sharedMaterial: {fileID: -2634949824425543767, guid: f760f7b8a2a671a4d8f63877e8a5307b, type: 2}
@@ -378,8 +382,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1006,6 +1010,7 @@ MonoBehaviour:
   ChapterPref: Chapter3Complete
   UISFX: {fileID: 0}
   TargetScene: 
+  NextScene: []
 --- !u!114 &773313586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1033,8 @@ MonoBehaviour:
   - {fileID: 1918673226}
   - {fileID: 1098493151}
   - {fileID: 1098493150}
+  TextFont: {fileID: 0}
+  Settings: 0
 --- !u!1 &780105592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1366,8 +1377,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_text
-      value: Very well, feel free to come back to hear my story if you change your
-        mind
+      value: "\nVery well, feel free to come back to \nhear my story if you change
+        your mind"
       objectReference: {fileID: 0}
     - target: {fileID: 9104969418354573073, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_fontAsset
@@ -1821,6 +1832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4965503396627786832, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5478580854126957226, guid: 2ca2fecaeea37264d81d68052e74ba63, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2192,8 +2207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

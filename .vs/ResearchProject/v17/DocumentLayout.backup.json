@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\uibasedmovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 1 scripts\\tilefailcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 1 scripts\\tilefailcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 2 scripts\\fillhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\fillhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +31,24 @@
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 1 scripts\\tiledestroyself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 1 scripts\\tilefailcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 1 scripts\\tilefailcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\playerwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 1 scripts\\onesteptiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 1 scripts\\onesteptiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\randomsceneselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomsceneselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\settingprefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +67,12 @@
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\loadcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charcustom\\charcustomoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapterlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapterlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiplayermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\volumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|D:\\ResearchProject\\ResearchProject\\assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606210F4-82DA-FCAC-4D51-AF3AB1D93ED3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chapter 2 scripts\\playermovementc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,47 +82,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIBasedMovementC2.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwC4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T15:47:47.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "CharCustomOption.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T09:39:20.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovementC2.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T15:47:46.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuScript.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScript.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T15:10:39.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UIPlayerMovement.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\UIPlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIPlayerMovement.cs",
               "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\UIPlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIPlayerMovement.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA3wBQAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-02T15:43:24.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FillHole.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "RandomSceneSelect.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\RandomSceneSelect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSceneSelect.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\RandomSceneSelect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomSceneSelect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:47:42.478Z"
+              "WhenOpened": "2026-08-10T14:38:17.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TileFailCondition.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FontChange.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\FontChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FontChange.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\FontChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FontChange.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T16:04:54.258Z"
+              "WhenOpened": "2026-08-05T11:26:38.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TileDestroySelf.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\TileDestroySelf.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 1 Scripts\\TileDestroySelf.cs",
@@ -118,32 +184,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UIBasedMovementC2.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\UIBasedMovementC2.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAABLAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TileFailCondition.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 1 Scripts\\TileFailCondition.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:47:47.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T16:04:54.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CharCustomOption.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharCustom\\CharCustomOption.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAACbAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FillHole.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\FillHole.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T09:39:20.276Z"
+              "WhenOpened": "2026-08-01T15:47:42.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "OneStepTiles.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chapter 1 Scripts\\OneStepTiles.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:41:18.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerWin.cs",
+              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\PlayerWin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWin.cs",
+              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\PlayerWin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerWin.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T09:40:55.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ChapterLock.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\ChapterLock.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChapterLock.cs",
@@ -155,20 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FontChange.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\FontChange.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FontChange.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\FontChange.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FontChange.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T11:26:38.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "LoadCustom.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\CharCustom\\LoadCustom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharCustom\\LoadCustom.cs",
@@ -180,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "MusicSelect.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\MusicSelect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicSelect.cs",
@@ -192,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "NextTextButton.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\NextTextButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NextTextButton.cs",
@@ -204,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "SettingPrefs.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\SettingPrefs.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SettingPrefs.cs",
@@ -216,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "VolumeManager.cs",
               "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\VolumeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VolumeManager.cs",
@@ -225,18 +301,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-01T17:02:58.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlayerMovementC2.cs",
-              "DocumentMoniker": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
-              "ToolTip": "D:\\ResearchProject\\ResearchProject\\Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Chapter 2 Scripts\\PlayerMovementC2.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:47:46.524Z"
             }
           ]
         }

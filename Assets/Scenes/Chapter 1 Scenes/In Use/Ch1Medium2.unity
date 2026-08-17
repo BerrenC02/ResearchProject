@@ -1573,7 +1573,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -32228,7 +32228,8 @@ MonoBehaviour:
   Target: {fileID: 1864896390}
   Solved: {fileID: 0}
   Fail: {fileID: 0}
-  NextScene: Ch1Dia2
+  NextScene:
+  - Ch1Dia2
 --- !u!1 &1881928785
 GameObject:
   m_ObjectHideFlags: 0

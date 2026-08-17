@@ -24,8 +24,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium1.unity
     guid: 7af8b4742a8b2a740bfe845c2a191942
   - enabled: 1
+    path: Assets/Scenes/Chapter 1 Scenes/In Use/Additional Levels/Ch1Medium11.unity
+    guid: 3084194e6ebb88a4e9375ded72ed5069
+  - enabled: 1
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Medium2.unity
     guid: 9ab81f4d92a848c4ab922e6cbf627dd4
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1 Scenes/In Use/Additional Levels/Ch1Medium22.unity
+    guid: a8a6b31aceefa1e4784854eb54d9e32a
   - enabled: 1
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Dia2.unity
     guid: f8643dc3c3615e844a1f3edaec015e53
@@ -33,8 +39,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard1.unity
     guid: 88a005b7de2d8db4b946205a4b8fd6c1
   - enabled: 1
+    path: Assets/Scenes/Chapter 1 Scenes/In Use/Additional Levels/Ch1Hard11.unity
+    guid: dc0657dce1bdd2e488db130229ddc492
+  - enabled: 1
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1Hard2.unity
     guid: 3f72350ff631cd246b6322b3d2f5206a
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1 Scenes/In Use/Additional Levels/Ch1Hard22.unity
+    guid: a0ac01fedd894db458e080190550cd95
   - enabled: 1
     path: Assets/Scenes/Chapter 1 Scenes/In Use/Ch1End.unity
     guid: e42c8827b83ba0144a7ba65aee0cf563
@@ -51,8 +63,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium1.unity
     guid: 20ee2b65663454445a21bc94cb2103cb
   - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/In Use/Additional LEvels/Ch2Medium11.unity
+    guid: 059e81145487f4f4784988c2e6d57c7c
+  - enabled: 1
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Medium2.unity
     guid: 101ff39eb11b687478d863216fd0429b
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/In Use/Additional LEvels/Ch2Medium22.unity
+    guid: b0d21f5ca5124fb4d96f87b15da01d6a
   - enabled: 1
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Dia2.unity
     guid: b686e29c89633dd4aa51f121f606161a
@@ -60,8 +78,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard1.unity
     guid: 808fe2626c27cbc499a187734c02b02f
   - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/In Use/Additional LEvels/Ch2Hard11.unity
+    guid: 94b71588076885045b01e88b04b60b73
+  - enabled: 1
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2Hard2.unity
     guid: 52c58ea97d291a543860d6e4623122e4
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Scenes/In Use/Additional LEvels/Ch2Hard22.unity
+    guid: af0f7c7235f9a2049adcd7f0d67fbeb2
   - enabled: 1
     path: Assets/Scenes/Chapter 2 Scenes/In Use/Ch2End.unity
     guid: f6fa3161f804cc54090b1d42c3227db1
@@ -78,8 +102,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium1.unity
     guid: 03c5a0413a3c23b41aa1e3a933497284
   - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/In Use/Additional Levels/Ch3Medium11.unity
+    guid: 73141e44cb6702a479f5ff0394b0835d
+  - enabled: 1
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Medium2.unity
     guid: 7f58e8d85a44ae14ab34c72afd6dd675
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/In Use/Additional Levels/Ch3Medium22.unity
+    guid: 28b97fe3aa1b9804caa5a01700184054
   - enabled: 1
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Dia2.unity
     guid: 2081f5230c8ab434b9bf021a71cf2966
@@ -87,8 +117,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard1.unity
     guid: 28bc61c71c6fcc4449f0d52539cfec4e
   - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/In Use/Additional Levels/Ch3Hard11.unity
+    guid: 3048f3e9c321ad041933da02973cb1e2
+  - enabled: 1
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3Hard2.unity
     guid: dfb329d501cdc88469e20562c129fb09
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Scenes/In Use/Additional Levels/Ch3Hard22.unity
+    guid: 8ff6b60660d87764a85db9c2e7ec1e78
   - enabled: 1
     path: Assets/Scenes/Chapter 3 Scenes/In Use/Ch3End.unity
     guid: 8469dacab9ef6df4a89b84f394749c56
@@ -104,9 +140,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stories/TheBoyWhoCriedWolf.unity
     guid: 5d622f0a88581804f8281e834503b543
-  - enabled: 1
-    path: Assets/Scenes/CameraMoveWithPlayerTest.unity
-    guid: 85a1f4166d4f30e48821053952dc289f
   - enabled: 1
     path: Assets/Scenes/CustomChar.unity
     guid: b801bf9955a45a84fbbfc380edcdf826

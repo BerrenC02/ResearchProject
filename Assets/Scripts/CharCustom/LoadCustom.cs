@@ -30,7 +30,16 @@ public class LoadCustom : MonoBehaviour
         {
             obj.SetActive(false);
         }
-        FacePos = PlayerPrefs.GetInt("FaceOption");
+        
+        //Checks Face options, if does not exist set to 0
+        if (PlayerPrefs.HasKey("FaceOption"))
+        {
+            FacePos = PlayerPrefs.GetInt("FaceOption");
+        }
+        else
+        {
+            FacePos = 0;
+        }
         FaceOptions[FacePos].SetActive(true);
 
         HeadOptions = UnityEngine.Object.FindObjectsOfType<GameObject>().Where(obj => obj.CompareTag("HeadOptions")).OrderBy(obj => obj.name).ToList();
@@ -39,7 +48,16 @@ public class LoadCustom : MonoBehaviour
             obj.SetActive(false);
 
         }
-        HeadPos = PlayerPrefs.GetInt("HeadOption");
+
+        //Check Head options, if does not exist set to 0
+        if (PlayerPrefs.HasKey("HeadOption"))
+        {
+            HeadPos = PlayerPrefs.GetInt("HeadOption");
+        }
+        else
+        {
+            HeadPos = 0;
+        }
         HeadOptions[HeadPos].SetActive(true);
 
         foreach (Color obj in FaceColors)
@@ -48,7 +66,17 @@ public class LoadCustom : MonoBehaviour
             MaxFaceColors++;
         }
         MaxFaceColors--;
-        FaceColourPos = PlayerPrefs.GetInt("FaceColourOption");
+        
+        //Check Face Colour, if does not exist set to 0
+        if (PlayerPrefs.HasKey("FaceColourOption"))
+        {
+            FaceColourPos = PlayerPrefs.GetInt("FaceColourOption");
+        }
+        else
+        {
+            FaceColourPos = 0;
+        }
+            
         foreach (GameObject obj in FaceOptions)
         {
             Image img = obj.GetComponentInChildren<Image>(true);
@@ -64,7 +92,17 @@ public class LoadCustom : MonoBehaviour
             MaxHeadColors++;
         }
         MaxHeadColors--;
-        HeadColourPos = PlayerPrefs.GetInt("HeadColourOption");
+
+        //Check Head Colour, if does not exist set to 0
+        if (PlayerPrefs.HasKey("HeadColourOption"))
+        {
+            FaceColourPos = PlayerPrefs.GetInt("HeadColourOption");
+        }
+        else
+        {
+            FaceColourPos = 0;
+        }
+
         foreach (GameObject obj in HeadOptions)
         {
             Image img = obj.GetComponentInChildren<Image>(true);

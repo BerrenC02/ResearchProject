@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIBasedMovementC2 : MonoBehaviour
 {
@@ -10,7 +13,7 @@ public class UIBasedMovementC2 : MonoBehaviour
     public LayerMask wallLayer;
     public LayerMask holeLayer;
     public bool Push = false;
-    public Color[] colours;
+
     public GameObject Player;
     public GameObject PushParticle;
     private Vector3 dir;
@@ -23,6 +26,9 @@ public class UIBasedMovementC2 : MonoBehaviour
 
     public GameObject ToggleOnImage;
     public GameObject ToggleOffImage;
+
+    public AudioSource UISFX;
+    private string TargetScene;
 
     private void Start()
     {
@@ -37,6 +43,8 @@ public class UIBasedMovementC2 : MonoBehaviour
         ToggleOffImage = GameObject.Find("PushToggleOff");
 
         ToggleOffImage.SetActive(false);
+
+        UISFX = GameObject.Find("UIButton").GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -165,6 +173,46 @@ public class UIBasedMovementC2 : MonoBehaviour
             ToggleOn.PlayOneShot(ToggleOn.clip);
             ToggleOnImage.SetActive(false);
             ToggleOffImage.SetActive(true);
+        }
+    }
+
+    public void ResetScene()
+    {
+        TargetScene = SceneManager.GetActiveScene().name;
+        StartCoroutine(UIButtonSFX());
+    }
+
+    IEnumerator UIButtonSFX()
+    {
+        Lock();
+        //Gets the length of the sound clip then plays the sound
+        float duration = UISFX.clip.length;
+        UISFX.PlayOneShot(UISFX.clip);
+        //Starts to load scene in the background 
+        AsyncOperation sceneLoading = SceneManager.LoadSceneAsync(TargetScene);
+        //Stops the scene from loading by keeping it inactive
+        sceneLoading.allowSceneActivation = false;
+        //Pauses for duration of sound clip before moving to next line
+        yield return new WaitForSeconds(duration);
+        while (sceneLoading.progress < 0.9f) yield return null;
+        sceneLoading.allowSceneActivation = true;
+    }
+
+    private void Lock()
+    {
+        //Prevents multiple button presses while sound is playing
+        //originally if button was pressed multiple times a scene would start loading
+        //but only 1 would finish leaving the others, was worried this would cause issues
+        //if done multiple times over a long session
+        Button[] Buttons = FindObjectsOfType<Button>();
+        foreach (UnityEngine.UI.Button obj in Buttons)
+        {
+            TMP_Text text = obj.GetComponentInChildren<TMP_Text>();
+            if (text != null)
+            {
+                text.color = Color.red;
+            }
+            obj.interactable = false;
         }
     }
 }
